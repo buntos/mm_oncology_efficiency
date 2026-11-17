@@ -1,0 +1,22 @@
+{
+  "patients": 950,
+  "luad": 474,
+  "lusc": 476,
+  "selected_files": 1900,
+  "wsi_files": 950,
+  "rna_files": 950,
+  "wsi_total_gb": 674.8983252942562,
+  "rna_total_gb": 3.7519070133566856,
+  "wsi_min_gb": 0.005944112315773964,
+  "wsi_median_gb": 0.5495890071615577,
+  "wsi_mean_gb": 0.7104192897834276,
+  "wsi_p95_gb": 1.8433157491497691,
+  "wsi_max_gb": 3.8049675477668643,
+  "wsi_over_1gb": 257,
+  "wsi_over_2gb": 34,
+  "live_uuid_missing": 0,
+  "metadata_mismatches": 0,
+  "free_disk_gb": 87.31550216674805,
+  "cohort_sha256": "0b62f5aa3b1dc09f9e96c411edb04b4456004a188eaa882072e4339e2d1611fa",
+  "problems": []
+}

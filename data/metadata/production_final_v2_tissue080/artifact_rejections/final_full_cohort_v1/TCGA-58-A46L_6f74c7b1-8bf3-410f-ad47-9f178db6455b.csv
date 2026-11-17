@@ -1,0 +1,2 @@
+case_submitter_id,class_label,file_id,slide_token,candidate_checked_index,x_level0,y_level0,approx_tissue_fraction,final_tissue_fraction,background_fraction,white_fraction,near_black_fraction,gradient_mean,red_excess,cyan_excess,saturation_mean,artifact_reasons,artifact_image_path,artifact_qc_protocol
+TCGA-58-A46L,LUSC,6f74c7b1-8bf3-410f-ad47-9f178db6455b,DX1,85,24832,48384,1.0,0.97930908203125,0.0001678466796875,0.0,0.35662841796875,2.127739429473877,26.93585205078125,-26.93585205078125,0.7026645541191101,near_black,,V2_FINAL_HSV_64x256+TISSUE080+ARTIFACT_QC_V1

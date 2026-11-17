@@ -1,0 +1,2 @@
+case_submitter_id,class_label,group,threshold,selected_index,candidate_checked_index,x_level0,y_level0,approx_tissue_fraction,final_tissue_fraction,background_fraction,white_fraction,near_black_fraction,gradient_mean,red_excess,cyan_excess,saturation_mean
+TCGA-05-4396,LUAD,failure,0.9,1,6059,60416,29696,1.0,0.9431610107421875,0.0,0.02789306640625,0.0,3.7332875728607178,46.90638732910156,-46.90638732910156,0.5019531846046448

@@ -1,0 +1,23 @@
+{
+  "case_submitter_id": "TCGA-66-2789",
+  "class_label": "LUSC",
+  "group": "control",
+  "wsi_file_id": "ab01c496-42d6-4c92-aff2-2ca6c60773b5",
+  "slide_token": "DX1",
+  "width": 70448,
+  "height": 38896,
+  "candidate_tiles": 8849,
+  "candidates_checked": 3808,
+  "scan_exhausted": false,
+  "deterministic_seed": 5100114996276961057,
+  "artifact_rejected_seen": 0,
+  "artifact_reason_counts": {
+    "near_black": 0,
+    "flat_extreme_red": 0,
+    "flat_extreme_cyan": 0,
+    "hyper_red_saturated": 0,
+    "hyper_cyan_saturated": 0
+  },
+  "mask_preview": "C:\\research\\mm_oncology_efficiency\\results\\figures\\final_tissue_threshold_audit_v1\\TCGA-66-2789\\thumbnail_tissue_mask.jpg",
+  "threshold_overview": "C:\\research\\mm_oncology_efficiency\\results\\figures\\final_tissue_threshold_audit_v1\\TCGA-66-2789\\threshold_comparison_overview.jpg"
+}

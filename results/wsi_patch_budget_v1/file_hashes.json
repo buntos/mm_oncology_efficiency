@@ -1,0 +1,30 @@
+{
+  "files": {
+    "environment.json": "07fe41ee36f3b8d1ceb04b5cca9ee9466149ec580130a50f9cdcd3207e2fb1ec",
+    "input_audit.json": "77feb67ff60e65b41da56ed249de34c43a5655fe329a525024ca5e3bf8bb4f87",
+    "patch_inventory.csv": "4b992911cf23a57a958634a92911d51a5c60f087973c3697ff59319bb5e2c7f0",
+    "patient_splits.csv": "a554ccbb514113dcd2ac5ad7cdb175c9d8e03341b4030657b6cdd8104765dc42",
+    "pilot_manifest.csv": "52e049fe25a0bdb3adb38df2ad004b0b7b4d89b03df373bafd3d954071d0f783",
+    "protocol.json": "fca0e10b1136b2eaa26d4a7fd4eca572e6a567ccd15927b912e79c63486bb7a5",
+    "run_status.json": "c1de13b9df3394bfb4cbea30791c628817b607b312466533d696eadc1fa6bbd0",
+    "source_inputs.json": "f8d925f51a30a31f36d8a98a02a718e258343c0a4908243ccb3e834d25fb6e62"
+  },
+  "identity": {
+    "dataset_fingerprint_sha256": "78d439493d4d882f49afc1027eff5f6c92033fab52560989e447fb73ca5039c9",
+    "project_root": "C:\\research\\mm_oncology_efficiency",
+    "script_sha256": "9d818c3734ff760cba8eaa07f36c098c9ad388a86479c7e5d999e7a37224759f",
+    "source_sha256": {
+      "cohort": "0b62f5aa3b1dc09f9e96c411edb04b4456004a188eaa882072e4339e2d1611fa",
+      "config": "a8b34c4ab05e987a7ac07c62228d20c2fc75f7fe247d3241ba3890e8c6fe4484",
+      "qc": "a7043c92c3e99c99c326544f0c29bad3a3a66788de21e5b250d07dcd0bd4cdef",
+      "script11": "3af2ff8ce9d085a3723eb29542f10fdbc97aa449422fafd3815683d5e5857b60",
+      "script17": "89edd15f150e30f424e945290ed22ba23cebc75d679d2ad70db3c3669d805b86",
+      "script24": "c97ada4ce9b5f8a3f669b63035f90f072ab13233906ce42e87ebd005848cd664",
+      "tiles": "9aef5106e4907ad846039be0a4c0bdf84d824a82daeb856355703ddacc2665e0"
+    },
+    "split_sha256": "8dbca5ef9368b8e29d50f7183d93d9e893fefa2b01eaf58b2812c055b0a00a8b",
+    "stage28_version": "1.0.2",
+    "tiles_root": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_final_v2_tissue080"
+  },
+  "schema_version": 1
+}

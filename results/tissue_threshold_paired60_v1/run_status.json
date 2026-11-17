@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "state": "COMPLETE",
+  "expected_patients": 60,
+  "completed_patients": 60,
+  "input_integrity_verified": true,
+  "errors": {},
+  "updated_utc": "2026-11-11T17:10:03.907432+00:00",
+  "controls_passed": 60,
+  "completed_by_class": {
+    "LUAD": 30,
+    "LUSC": 30
+  },
+  "pending_patients": [],
+  "primary_contrast": "0.90 vs 0.80",
+  "primary_metric": "mean patient-level replacement_fraction among both-complete pairs",
+  "note": "Final means/rates/intervals are blank until all 60 valid results are available."
+}

@@ -1,0 +1,38 @@
+{
+  "tag": "zeroinit_head",
+  "success": true,
+  "success_epoch": 12,
+  "epochs_run": 14,
+  "gpu_train_seconds": 9.245644800001173,
+  "final": {
+    "epoch": 14,
+    "train_ce": 0.00860766339053498,
+    "eval_ce": 0.0036104237927929717,
+    "eval_correct": 8,
+    "amp_skips": 0,
+    "p_LUSC_sd": 0.4964093809469689,
+    "logit_diff_sd": 7.714023509221042,
+    "logit_diff_mean": 2.5928308963775635,
+    "att_entropy_mean": 0.6085500288754702,
+    "grad_norm_encoder": 1.5737109184265137,
+    "grad_norm_head": 0.5905106365680695,
+    "rel_update_encoder": 0.0007790375342550987,
+    "update_norm_head": 0.07650503620604013,
+    "cls_dWdiff_same_sign_frac": 0.490234375,
+    "lr": [
+      0.0001,
+      0.001
+    ],
+    "pooled_between_patient_sd_mean": 1.636445164680481,
+    "pooled_mean_abs": 1.7822062969207764,
+    "pooled_cosine_mean": 0.5346134901046753
+  },
+  "initial": {
+    "epoch": 0,
+    "eval_ce": 0.6931471824645996,
+    "eval_correct": 4,
+    "pooled_between_patient_sd_mean": 0.24124783277511597,
+    "pooled_mean_abs": 0.6699470281600952,
+    "pooled_cosine_mean": 0.910318911075592
+  }
+}

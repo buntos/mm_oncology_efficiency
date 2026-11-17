@@ -1,0 +1,38 @@
+{
+  "tag": "enc_lr_1e-5",
+  "success": true,
+  "success_epoch": 10,
+  "epochs_run": 12,
+  "gpu_train_seconds": 7.9359867999955895,
+  "final": {
+    "epoch": 12,
+    "train_ce": 0.004285854040062986,
+    "eval_ce": 0.0032990184554364532,
+    "eval_correct": 8,
+    "amp_skips": 0,
+    "p_LUSC_sd": 0.4967167601357939,
+    "logit_diff_sd": 6.099577481068663,
+    "logit_diff_mean": -0.11960887908935547,
+    "att_entropy_mean": 0.4423504229635,
+    "grad_norm_encoder": 0.34992994368076324,
+    "grad_norm_head": 0.09878430142998695,
+    "rel_update_encoder": 0.00011741582588090715,
+    "update_norm_head": 0.1212681911866598,
+    "cls_dWdiff_same_sign_frac": 0.5751953125,
+    "lr": [
+      1e-05,
+      0.001
+    ],
+    "pooled_between_patient_sd_mean": 0.7692855000495911,
+    "pooled_mean_abs": 1.0733486413955688,
+    "pooled_cosine_mean": 0.6843948364257812
+  },
+  "initial": {
+    "epoch": 0,
+    "eval_ce": 0.7230337485671043,
+    "eval_correct": 4,
+    "pooled_between_patient_sd_mean": 0.24124783277511597,
+    "pooled_mean_abs": 0.6699470281600952,
+    "pooled_cosine_mean": 0.910318911075592
+  }
+}

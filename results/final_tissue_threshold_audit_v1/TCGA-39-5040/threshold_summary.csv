@@ -1,0 +1,6 @@
+case_submitter_id,class_label,group,file_id,slide_token,threshold,selected_tiles,reached_64,checked_to_64,pass_count_seen,candidates_total,candidates_checked,scan_exhausted,background_fail_seen,white_fail_seen,artifact_rejected_seen,raw_otsu_saturation,saturation_threshold,tissue_mask_fraction
+TCGA-39-5040,LUSC,control,59fa2b75-f136-4598-8944-c2dea1c4f866,DX1,0.9,64,True,152,64,44948,152,False,2,2,0,0.158203125,0.158203125,0.574652603845561
+TCGA-39-5040,LUSC,control,59fa2b75-f136-4598-8944-c2dea1c4f866,DX1,0.85,64,True,94,91,44948,152,False,2,2,0,0.158203125,0.158203125,0.574652603845561
+TCGA-39-5040,LUSC,control,59fa2b75-f136-4598-8944-c2dea1c4f866,DX1,0.8,64,True,79,112,44948,152,False,2,2,0,0.158203125,0.158203125,0.574652603845561
+TCGA-39-5040,LUSC,control,59fa2b75-f136-4598-8944-c2dea1c4f866,DX1,0.75,64,True,70,130,44948,152,False,2,2,0,0.158203125,0.158203125,0.574652603845561
+TCGA-39-5040,LUSC,control,59fa2b75-f136-4598-8944-c2dea1c4f866,DX1,0.7,64,True,68,139,44948,152,False,2,2,0,0.158203125,0.158203125,0.574652603845561

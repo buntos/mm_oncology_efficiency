@@ -1,0 +1,2 @@
+# Frozen experiment hashes require byte-identical files across checkouts.
+* -text

@@ -1,0 +1,6 @@
+stage,remaining
+thumbnail_candidates,13723
+tissue_ge_0.80,0
+background_le_0.10,0
+white_le_0.10,0
+artifact_qc_pass,0

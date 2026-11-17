@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-12T21:59:58.264721+00:00",
+  "config": "A",
+  "settings": {
+    "encoder_lr": 1e-05,
+    "head_lr": 0.001,
+    "budget": 64,
+    "seed": 20261113,
+    "epochs": 20,
+    "weight_decay": 0.0001,
+    "accumulation": 4,
+    "classifier_init": "original (build_model, seed 20261113)",
+    "threshold": 0.5
+  },
+  "horizon": "20 epochs total, fixed before launch; no early stopping; no LR/scheduler/sampling/normalisation/threshold changes",
+  "restart_reason": "D07 saved no checkpoints (model/optimizer/scaler/RNG/data position unavailable) -> rerun from scratch",
+  "reproduction_check": "epochs 1-5 val CE/AUROC/p_mean and train-eval CE must equal D07 (same config); recomputed epochs 1-5 reported separately in cost",
+  "outputs": [
+    "full train-eval / validation CE, AUROC, balanced accuracy, macro-F1 per epoch",
+    "mean p, SD, range, n predicted per class per epoch (train-eval and validation), threshold 0.5",
+    "pooled-feature |h| and between-patient SD per epoch (train-eval and validation)",
+    "last-five-epoch (16-20) means/SD per config, not best checkpoint",
+    "per-group: IDs, labels, loss, update norms, bias values and b_LUSC-b_LUAD",
+    "epochs 4-5 group-boundary train probe: mean logit diff LUSC-LUAD, SD p"
+  ],
+  "analysis": [
+    "shift = change of mean logit diff (LUSC-LUAD); a common shift of both logits is ignored",
+    "group label composition vs probe shift reported as association only, not cause",
+    "equal update norms are not taken as equal weight changes",
+    "validation differences are descriptive (n=20, one seed, no formal test); no equivalence claims",
+    "conclusion category: continued learning / overfitting / persistent instability, from train-eval vs validation CE and separation trends over epochs 6-20"
+  ],
+  "probe_patients": "first 4 LUAD + first 4 LUSC pilot-train by pilot_order_within_class (same as D03/D04)",
+  "command": ".\\.venv\\Scripts\\python.exe -B results\\stage29_learning_investigation_v1\\code\\d08_head_lr_ab_20ep.py --config A",
+  "diagnostic_script_sha256": "9efd22ab166e667bc3b27e4e1f57de4689cd4654d032a39f9b9f89e3cf468af2",
+  "stage29_script_sha256": "a8a7409a32c748c3529544138b5e20b8f6294b233a8fb22c20585dcd522ab09d"
+}

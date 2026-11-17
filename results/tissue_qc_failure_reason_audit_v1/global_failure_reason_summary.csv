@@ -1,0 +1,4 @@
+case_submitter_id,class_label,thumbnail_candidates,tissue_ge_080,after_background_010,after_white_010,after_artifact_qc,background_fail_among_tissue_pass,white_fail_among_tissue_pass,artifact_fail_among_tissue_pass
+TCGA-05-4396,LUAD,7686,9,9,4,4,0,5,0
+TCGA-05-4397,LUAD,19348,25,25,5,5,0,20,0
+TCGA-05-4434,LUAD,13723,0,0,0,0,0,0,0

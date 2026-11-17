@@ -1,0 +1,422 @@
+[
+ {
+  "grad_norm_encoder": 0.0,
+  "grad_norm_head": 1.7540886402130127,
+  "grad_cls_w_same_sign_frac": 0.630859375,
+  "update_norm_encoder": 0.0,
+  "rel_update_encoder": 0.0,
+  "update_norm_head": 0.03199991812053408,
+  "cls_dWdiff_same_sign_frac": 0.630859375,
+  "cls_dWdiff_abs_mean": 0.001999995205551386,
+  "cls_dbias_diff": 0.0,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 0.8354268074035645,
+  "grad_norm_head": 3.0360331535339355,
+  "grad_cls_w_same_sign_frac": 0.7734375,
+  "update_norm_encoder": 0.24674898947405363,
+  "rel_update_encoder": 0.002898402779665816,
+  "update_norm_head": 0.2668468282575483,
+  "cls_dWdiff_same_sign_frac": 0.6484375,
+  "cls_dWdiff_abs_mean": 0.0012205583043396473,
+  "cls_dbias_diff": -0.0014882732648402452,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 1.0861605405807495,
+  "grad_norm_head": 1.5415023565292358,
+  "grad_cls_w_same_sign_frac": 0.609375,
+  "update_norm_encoder": 0.20137261265977482,
+  "rel_update_encoder": 0.002365390329938489,
+  "update_norm_head": 0.2309573162490536,
+  "cls_dWdiff_same_sign_frac": 0.5859375,
+  "cls_dWdiff_abs_mean": 0.0010865795193240047,
+  "cls_dbias_diff": -0.0008088394533842802,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 3.495838165283203,
+  "grad_norm_head": 2.7802789211273193,
+  "grad_cls_w_same_sign_frac": 0.67578125,
+  "update_norm_encoder": 0.1794519323169511,
+  "rel_update_encoder": 0.0021078851288107037,
+  "update_norm_head": 0.21093492226322716,
+  "cls_dWdiff_same_sign_frac": 0.64453125,
+  "cls_dWdiff_abs_mean": 0.0010395891731604934,
+  "cls_dbias_diff": -0.0013045095838606358,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 2.5948452949523926,
+  "grad_norm_head": 4.028860569000244,
+  "grad_cls_w_same_sign_frac": 0.607421875,
+  "update_norm_encoder": 0.18048752968461776,
+  "rel_update_encoder": 0.0021200301308434135,
+  "update_norm_head": 0.2041151835010254,
+  "cls_dWdiff_same_sign_frac": 0.642578125,
+  "cls_dWdiff_abs_mean": 0.001093231257982552,
+  "cls_dbias_diff": -0.0015326496213674545,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 29.196229934692383,
+  "grad_norm_head": 28.223363876342773,
+  "grad_cls_w_same_sign_frac": 1.0,
+  "update_norm_encoder": 0.15497813552405132,
+  "rel_update_encoder": 0.0018203721621258574,
+  "update_norm_head": 0.19478627705103974,
+  "cls_dWdiff_same_sign_frac": 0.966796875,
+  "cls_dWdiff_abs_mean": 0.0008796054171398282,
+  "cls_dbias_diff": 0.0006745483260601759,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 16.9075927734375,
+  "grad_norm_head": 10.98710823059082,
+  "grad_cls_w_same_sign_frac": 1.0,
+  "update_norm_encoder": 0.11183083910188264,
+  "rel_update_encoder": 0.0013135550294532258,
+  "update_norm_head": 0.142818337784957,
+  "cls_dWdiff_same_sign_frac": 0.8828125,
+  "cls_dWdiff_abs_mean": 0.0003758448292501271,
+  "cls_dbias_diff": 0.00014590099453926086,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 17.871341705322266,
+  "grad_norm_head": 9.62082290649414,
+  "grad_cls_w_same_sign_frac": 0.9921875,
+  "update_norm_encoder": 0.10935290014376725,
+  "rel_update_encoder": 0.0012844404644504254,
+  "update_norm_head": 0.1438885752476638,
+  "cls_dWdiff_same_sign_frac": 0.45703125,
+  "cls_dWdiff_abs_mean": 0.00023722846526652575,
+  "cls_dbias_diff": -0.0002702393103390932,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 3.8960273265838623,
+  "grad_norm_head": 2.818622589111328,
+  "grad_cls_w_same_sign_frac": 0.583984375,
+  "update_norm_encoder": 0.09845106102566842,
+  "rel_update_encoder": 0.001156381161477725,
+  "update_norm_head": 0.13246870300642194,
+  "cls_dWdiff_same_sign_frac": 0.48046875,
+  "cls_dWdiff_abs_mean": 0.00023856321058701724,
+  "cls_dbias_diff": -0.00032334309071302414,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 3.4981157779693604,
+  "grad_norm_head": 3.615164041519165,
+  "grad_cls_w_same_sign_frac": 0.58984375,
+  "update_norm_encoder": 0.09444220334207212,
+  "rel_update_encoder": 0.0011092850488311416,
+  "update_norm_head": 0.12556409801735277,
+  "cls_dWdiff_same_sign_frac": 0.498046875,
+  "cls_dWdiff_abs_mean": 0.000260653265286237,
+  "cls_dbias_diff": -0.0004199845716357231,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 2.8137948513031006,
+  "grad_norm_head": 3.2586421966552734,
+  "grad_cls_w_same_sign_frac": 0.78125,
+  "update_norm_encoder": 0.09689108905210875,
+  "rel_update_encoder": 0.001138038047435999,
+  "update_norm_head": 0.11974337202813734,
+  "cls_dWdiff_same_sign_frac": 0.55859375,
+  "cls_dWdiff_abs_mean": 0.0002855769998859614,
+  "cls_dbias_diff": -0.0004908605478703976,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 15.44835376739502,
+  "grad_norm_head": 8.270800590515137,
+  "grad_cls_w_same_sign_frac": 0.99609375,
+  "update_norm_encoder": 0.09288760985199404,
+  "rel_update_encoder": 0.0010910041442875361,
+  "update_norm_head": 0.12287503419121251,
+  "cls_dWdiff_same_sign_frac": 0.75,
+  "cls_dWdiff_abs_mean": 0.0002887396258302033,
+  "cls_dbias_diff": -6.553623825311661e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 4.201892852783203,
+  "grad_norm_head": 3.028411388397217,
+  "grad_cls_w_same_sign_frac": 0.48046875,
+  "update_norm_encoder": 0.09783495879404029,
+  "rel_update_encoder": 0.0011491015746942792,
+  "update_norm_head": 0.13066968524637373,
+  "cls_dWdiff_same_sign_frac": 0.693359375,
+  "cls_dWdiff_abs_mean": 0.0003272531321272254,
+  "cls_dbias_diff": -9.436393156647682e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 3.646658182144165,
+  "grad_norm_head": 2.6802561283111572,
+  "grad_cls_w_same_sign_frac": 0.5625,
+  "update_norm_encoder": 0.10164514357214283,
+  "rel_update_encoder": 0.0011938408124378267,
+  "update_norm_head": 0.13654762084336614,
+  "cls_dWdiff_same_sign_frac": 0.66015625,
+  "cls_dWdiff_abs_mean": 0.0003652316809166223,
+  "cls_dbias_diff": -9.144144132733345e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 5.659142017364502,
+  "grad_norm_head": 2.4059245586395264,
+  "grad_cls_w_same_sign_frac": 0.9140625,
+  "update_norm_encoder": 0.09539863624681885,
+  "rel_update_encoder": 0.001120461906166024,
+  "update_norm_head": 0.12857823395358786,
+  "cls_dWdiff_same_sign_frac": 0.607421875,
+  "cls_dWdiff_abs_mean": 0.00034042817424051464,
+  "cls_dbias_diff": -0.00018041394650936127,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 67.80067443847656,
+  "grad_norm_head": 19.70207977294922,
+  "grad_cls_w_same_sign_frac": 1.0,
+  "update_norm_encoder": 0.11915031723545358,
+  "rel_update_encoder": 0.0013994102901657647,
+  "update_norm_head": 0.13762406073737765,
+  "cls_dWdiff_same_sign_frac": 0.8671875,
+  "cls_dWdiff_abs_mean": 0.0004170069005340338,
+  "cls_dbias_diff": -0.0006631575524806976,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 8.896206855773926,
+  "grad_norm_head": 2.7440781593322754,
+  "grad_cls_w_same_sign_frac": 0.89453125,
+  "update_norm_encoder": 0.10719359003522329,
+  "rel_update_encoder": 0.001258967575599079,
+  "update_norm_head": 0.12686786902774427,
+  "cls_dWdiff_same_sign_frac": 0.775390625,
+  "cls_dWdiff_abs_mean": 0.00034721673000603914,
+  "cls_dbias_diff": -0.000520066823810339,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 34.362525939941406,
+  "grad_norm_head": 9.325437545776367,
+  "grad_cls_w_same_sign_frac": 0.974609375,
+  "update_norm_encoder": 0.09031068213981065,
+  "rel_update_encoder": 0.001060669913970865,
+  "update_norm_head": 0.11564586710861073,
+  "cls_dWdiff_same_sign_frac": 0.5546875,
+  "cls_dWdiff_abs_mean": 0.00024349128943867981,
+  "cls_dbias_diff": -0.0002957656979560852,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 38.08106994628906,
+  "grad_norm_head": 10.48741340637207,
+  "grad_cls_w_same_sign_frac": 0.99609375,
+  "update_norm_encoder": 0.0987202254185713,
+  "rel_update_encoder": 0.001159423330028809,
+  "update_norm_head": 0.11911639428091204,
+  "cls_dWdiff_same_sign_frac": 0.654296875,
+  "cls_dWdiff_abs_mean": 0.00027132683317177,
+  "cls_dbias_diff": -5.916506052017212e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 15.743624687194824,
+  "grad_norm_head": 5.116415977478027,
+  "grad_cls_w_same_sign_frac": 0.99609375,
+  "update_norm_encoder": 0.1028791163717076,
+  "rel_update_encoder": 0.0012082516384107856,
+  "update_norm_head": 0.11697413725793916,
+  "cls_dWdiff_same_sign_frac": 0.791015625,
+  "cls_dWdiff_abs_mean": 0.00032490381272509694,
+  "cls_dbias_diff": 8.277921006083488e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 0.30333051085472107,
+  "grad_norm_head": 0.28099843859672546,
+  "grad_cls_w_same_sign_frac": 0.47265625,
+  "update_norm_encoder": 0.09395377467162673,
+  "rel_update_encoder": 0.001103414326860069,
+  "update_norm_head": 0.10705210282568035,
+  "cls_dWdiff_same_sign_frac": 0.783203125,
+  "cls_dWdiff_abs_mean": 0.00029889264260418713,
+  "cls_dbias_diff": 7.316097617149353e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 6.265519142150879,
+  "grad_norm_head": 2.0995614528656006,
+  "grad_cls_w_same_sign_frac": 0.8828125,
+  "update_norm_encoder": 0.08348246822894471,
+  "rel_update_encoder": 0.0009804237628153322,
+  "update_norm_head": 0.10150743748723305,
+  "cls_dWdiff_same_sign_frac": 0.716796875,
+  "cls_dWdiff_abs_mean": 0.00026239678845740855,
+  "cls_dbias_diff": 2.1041370928287506e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 8.844648361206055,
+  "grad_norm_head": 2.4581360816955566,
+  "grad_cls_w_same_sign_frac": 0.9921875,
+  "update_norm_encoder": 0.0771259454439661,
+  "rel_update_encoder": 0.0009057600150972796,
+  "update_norm_head": 0.09893297699112899,
+  "cls_dWdiff_same_sign_frac": 0.642578125,
+  "cls_dWdiff_abs_mean": 0.00022763482411392033,
+  "cls_dbias_diff": -4.2096711695194244e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 4.36172342300415,
+  "grad_norm_head": 1.677873969078064,
+  "grad_cls_w_same_sign_frac": 0.998046875,
+  "update_norm_encoder": 0.0744851313068239,
+  "rel_update_encoder": 0.0008747346850769061,
+  "update_norm_head": 0.09648259106700924,
+  "cls_dWdiff_same_sign_frac": 0.595703125,
+  "cls_dWdiff_abs_mean": 0.0002165363111998886,
+  "cls_dbias_diff": -7.33125489205122e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 0.44795557856559753,
+  "grad_norm_head": 0.24793368577957153,
+  "grad_cls_w_same_sign_frac": 0.876953125,
+  "update_norm_encoder": 0.06845817725856593,
+  "rel_update_encoder": 0.0008039448899767516,
+  "update_norm_head": 0.08849607189216445,
+  "cls_dWdiff_same_sign_frac": 0.5859375,
+  "cls_dWdiff_abs_mean": 0.00019935131422244012,
+  "cls_dbias_diff": -7.148971781134605e-05,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 4.338519096374512,
+  "grad_norm_head": 1.7561012506484985,
+  "grad_cls_w_same_sign_frac": 0.998046875,
+  "update_norm_encoder": 0.0698463471020989,
+  "rel_update_encoder": 0.0008202364147982014,
+  "update_norm_head": 0.08521467530013954,
+  "cls_dWdiff_same_sign_frac": 0.4609375,
+  "cls_dWdiff_abs_mean": 0.00019737923867069185,
+  "cls_dbias_diff": -0.0001013933215290308,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 2.0223824977874756,
+  "grad_norm_head": 0.6576472520828247,
+  "grad_cls_w_same_sign_frac": 0.990234375,
+  "update_norm_encoder": 0.06850405810537245,
+  "rel_update_encoder": 0.000804463238716206,
+  "update_norm_head": 0.07967460284382542,
+  "cls_dWdiff_same_sign_frac": 0.484375,
+  "cls_dWdiff_abs_mean": 0.00018816240481100976,
+  "cls_dbias_diff": -0.00010360497981309891,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ },
+ {
+  "grad_norm_encoder": 1.1250393390655518,
+  "grad_norm_head": 0.5233740210533142,
+  "grad_cls_w_same_sign_frac": 0.994140625,
+  "update_norm_encoder": 0.06417458464204687,
+  "rel_update_encoder": 0.0007536118297939915,
+  "update_norm_head": 0.07333546956825485,
+  "cls_dWdiff_same_sign_frac": 0.49609375,
+  "cls_dWdiff_abs_mean": 0.00017765296797733754,
+  "cls_dbias_diff": -0.0001043388620018959,
+  "lr": [
+   0.0001,
+   0.001
+  ]
+ }
+]

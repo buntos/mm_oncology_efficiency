@@ -1,0 +1,25 @@
+{"event": "START", "utc": "2026-11-12T23:41:01.722864+00:00", "active_seconds": 0.00018310000450583175, "cpu_seconds": 0.0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:41:08.066131+00:00", "active_seconds": 6.342858900003193, "cpu_seconds": 21.15625, "epoch": 1, "phase": "train", "group": 0}
+{"event": "MODEL_READY", "utc": "2026-11-12T23:41:08.076130+00:00", "active_seconds": 6.3529879999987315, "cpu_seconds": 21.203125, "epoch": 0, "phase": "train", "group": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:09.922565+00:00", "active_seconds": 8.199335199999041, "cpu_seconds": 26.53125, "epoch": 1, "group": 1, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:11.317427+00:00", "active_seconds": 9.594821300001058, "cpu_seconds": 30.515625, "epoch": 1, "group": 2, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:12.698398+00:00", "active_seconds": 10.975318900003913, "cpu_seconds": 34.546875, "epoch": 1, "group": 3, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:14.075338+00:00", "active_seconds": 12.352198000000499, "cpu_seconds": 38.53125, "epoch": 1, "group": 4, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:15.461352+00:00", "active_seconds": 13.738447199997609, "cpu_seconds": 42.546875, "epoch": 1, "group": 5, "skipped": 0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:41:16.177731+00:00", "active_seconds": 14.454923400000553, "cpu_seconds": 44.453125, "epoch": 1, "phase": "train", "group": 5}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:17.560742+00:00", "active_seconds": 15.838059900001099, "cpu_seconds": 48.359375, "epoch": 1, "group": 6, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:18.933747+00:00", "active_seconds": 17.210998100003053, "cpu_seconds": 52.40625, "epoch": 1, "group": 7, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:20.290166+00:00", "active_seconds": 18.567256800000905, "cpu_seconds": 56.421875, "epoch": 1, "group": 8, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:21.677847+00:00", "active_seconds": 19.95478820000426, "cpu_seconds": 60.421875, "epoch": 1, "group": 9, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:23.046502+00:00", "active_seconds": 21.323464799999783, "cpu_seconds": 64.453125, "epoch": 1, "group": 10, "skipped": 0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:41:23.755580+00:00", "active_seconds": 22.03263650000008, "cpu_seconds": 66.390625, "epoch": 1, "phase": "train", "group": 10}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:25.127746+00:00", "active_seconds": 23.404869999998482, "cpu_seconds": 70.265625, "epoch": 1, "group": 11, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:26.523417+00:00", "active_seconds": 24.800934500002768, "cpu_seconds": 74.328125, "epoch": 1, "group": 12, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:27.868607+00:00", "active_seconds": 26.146120299999893, "cpu_seconds": 78.28125, "epoch": 1, "group": 13, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:29.207981+00:00", "active_seconds": 27.485266199997568, "cpu_seconds": 82.28125, "epoch": 1, "group": 14, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:41:30.579110+00:00", "active_seconds": 28.85675210000045, "cpu_seconds": 86.265625, "epoch": 1, "group": 15, "skipped": 0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:41:31.299047+00:00", "active_seconds": 29.57672399999865, "cpu_seconds": 88.203125, "epoch": 1, "phase": "trained", "group": 15}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:41:37.623609+00:00", "active_seconds": 35.9012670000011, "cpu_seconds": 108.765625, "epoch": 1, "phase": "validated", "group": 15}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:41:44.172895+00:00", "active_seconds": 42.450310599997465, "cpu_seconds": 129.453125, "epoch": 2, "phase": "train", "group": 0}
+{"event": "EPOCH_COMMITTED", "utc": "2026-11-12T23:41:44.426154+00:00", "active_seconds": 42.70341990000452, "cpu_seconds": 130.421875, "epoch": 1, "improved": true, "status": "MAX_EPOCHS"}
+{"event": "END", "utc": "2026-11-12T23:41:44.455981+00:00", "active_seconds": 42.733233799997834, "cpu_seconds": 130.53125, "outcome": "MAX_EPOCHS"}

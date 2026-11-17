@@ -1,0 +1,33 @@
+{
+  "attempts_total": 8,
+  "best_checkpoint_sequence": 3,
+  "completed_epochs": 2,
+  "executed_total": 8,
+  "ledger": {
+    "note": "Power-off pauses excluded. Unclean tail after last durable heartbeat is unknown, not zero.",
+    "recorded_active_seconds_including_replay": 18.406763199993293,
+    "recorded_cpu_seconds": 57.1875,
+    "sessions": 1,
+    "time_is_lower_bound": true,
+    "unclean_sessions": [
+      "2026-11-12T23-37-37.832834+00-00_5ffe0f528c994e44a3a59a991630196c.jsonl"
+    ]
+  },
+  "selection": {
+    "best_ce": 0.7334357599417368,
+    "best_epoch": 1,
+    "epochs_without_improvement": 1
+  },
+  "skipped_total": 0,
+  "status": "MAX_EPOCHS",
+  "test_scored": false,
+  "time_note": "Wall/CPU time, not 'GPU time'. Includes setup and replayed work after crashes; if time_is_lower_bound, an unclean tail after the last durable heartbeat is unknown.",
+  "train_eval_subset": [
+    "TCGA-55-8614",
+    "TCGA-75-5147",
+    "TCGA-64-5779",
+    "TCGA-77-A5GB",
+    "TCGA-79-5596",
+    "TCGA-43-6647"
+  ]
+}

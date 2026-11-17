@@ -1,0 +1,30 @@
+# Large local assets; retained locally or distributed separately.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+/data/tiles/
+/data/rna/
+/data/raw/
+/results/figures/*
+!/results/figures/pilot_thumbnails/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+*.svs
+*.ndpi
+*.mrxs
+*.exe
+*.dll
+*.whl
+execution.lock
+*.tmp
+.env
+.env.*
+!.env.example
+!.env.template
+gdc-user-token*
+# Keep CSV/JSON/JSONL, protocols, manifests and compressed CSVs tracked.

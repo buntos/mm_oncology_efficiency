@@ -1,0 +1,23 @@
+{
+  "script_sha256": "776a66428592079bfe882a385ee09f10c7a3541a765438ebc01c6cb4b41e6b4d",
+  "defect1_stop_after_training_phase": {
+    "in_memory_train_wall_seconds_at_stop": 0.09003320000192616,
+    "checkpointed_train_wall_seconds": 0.0,
+    "final_epoch1_train_wall_seconds_after_resume": 0.0,
+    "final_epoch1_train_peak_rss_bytes_after_resume": 0,
+    "continuous_epoch1_train_wall_seconds": 0.06148100001155399,
+    "weights_equal_to_continuous": true,
+    "reproduced": true
+  },
+  "defect1b_intermediate_checkpoint_mid_training": {
+    "checkpointed_train_wall_seconds_after_2_attempts": 0.0,
+    "reproduced": true
+  },
+  "defect2_commit_checkpoint_cost_after_serialisation": {
+    "in_memory_last_epoch_checkpoint_count": 4,
+    "checkpointed_last_epoch_checkpoint_count": 3,
+    "in_memory_checkpoint_io_wall_seconds": 0.07480200001737103,
+    "checkpointed_checkpoint_io_wall_seconds": 0.055109000008087605,
+    "reproduced": true
+  }
+}

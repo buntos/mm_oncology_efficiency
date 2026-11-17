@@ -1,0 +1,14 @@
+{
+  "budget": 64,
+  "fresh_process_resume_equal": {
+    "model": true,
+    "optimizer": true,
+    "rng": true,
+    "scaler": true
+  },
+  "identity": "eaf234335d2f620ebdb26818e3ac7265f87e68f3ff1014464b8d857a4fb602cf",
+  "loss_sum": 0.020009567961096764,
+  "status": "PASS",
+  "tail_group_size": 1,
+  "utc": "2026-11-12T19:22:26.707894+00:00"
+}

@@ -1,0 +1,164 @@
+{
+  "epochs_6_10_mean": {
+    "amp_skips": {
+      "balanced": 0.0,
+      "d08b": 0.0
+    },
+    "enc_rel_displacement_from_init": {
+      "balanced": 0.006841776217948153,
+      "d08b": 0.0050187033447066836
+    },
+    "enc_update_mean": {
+      "balanced": 0.009370405804711646,
+      "d08b": 0.008378812109373779
+    },
+    "head_rel_displacement_from_init": {
+      "balanced": 0.10659984149440815,
+      "d08b": 0.08078732402375399
+    },
+    "head_update_mean": {
+      "balanced": 0.01442721813196165,
+      "d08b": 0.014740373262500415
+    },
+    "train_eval_auroc": {
+      "balanced": 0.9895555555555557,
+      "d08b": 0.9477777777777778
+    },
+    "train_eval_ce": {
+      "balanced": 0.23884283600898923,
+      "d08b": 0.47066818665713067
+    },
+    "train_eval_feat_abs_mean": {
+      "balanced": 1.449693536758423,
+      "d08b": 0.8257444143295288
+    },
+    "train_eval_feat_between_patient_sd": {
+      "balanced": 0.608553123474121,
+      "d08b": 0.3291491538286209
+    },
+    "train_eval_logit_diff_mean": {
+      "balanced": 0.021100728313128148,
+      "d08b": -0.0883796647687753
+    },
+    "train_eval_mean_p_diff_LUSC_minus_LUAD": {
+      "balanced": 0.6297186286871632,
+      "d08b": 0.3016644242157539
+    },
+    "train_eval_n_pred_LUSC": {
+      "balanced": 29.8,
+      "d08b": 29.2
+    },
+    "train_eval_p_mean": {
+      "balanced": 0.511747508465002,
+      "d08b": 0.48413494146118563
+    },
+    "train_eval_p_sd": {
+      "balanced": 0.3548475636550855,
+      "d08b": 0.19709946920547922
+    },
+    "val_auroc": {
+      "balanced": 0.67,
+      "d08b": 0.682
+    },
+    "val_balanced_accuracy": {
+      "balanced": 0.61,
+      "d08b": 0.64
+    },
+    "val_ce": {
+      "balanced": 0.9224263094810887,
+      "d08b": 0.679331174325198
+    },
+    "val_feat_abs_mean": {
+      "balanced": 1.505760622024536,
+      "d08b": 0.8349551796913147
+    },
+    "val_feat_between_patient_sd": {
+      "balanced": 0.55988529920578,
+      "d08b": 0.28980542421340943
+    },
+    "val_macro_f1": {
+      "balanced": 0.6052821447558291,
+      "d08b": 0.6233785162206216
+    },
+    "val_mean_p_diff_LUSC_minus_LUAD": {
+      "balanced": 0.17942541034048184,
+      "d08b": 0.11694088265299799
+    },
+    "val_n_pred_LUAD": {
+      "balanced": 9.0,
+      "d08b": 9.6
+    },
+    "val_n_pred_LUSC": {
+      "balanced": 11.0,
+      "d08b": 10.4
+    },
+    "val_p_mean": {
+      "balanced": 0.5042141078221902,
+      "d08b": 0.4716036406904459
+    },
+    "val_p_sd": {
+      "balanced": 0.33971969843403677,
+      "d08b": 0.18001264956291846
+    }
+  },
+  "note": "validation n=20, one seed: descriptive only",
+  "primary_balanced": {
+    "mean_logit_diff_by_epoch": [
+      0.269,
+      0.2627,
+      0.0623,
+      -0.0386,
+      -0.3631,
+      0.2699,
+      0.0611,
+      1.0046,
+      -0.9109,
+      -0.3192
+    ],
+    "transitions": [
+      0.0063,
+      0.2004,
+      0.1009,
+      0.3244,
+      0.633,
+      0.2088,
+      0.9435,
+      1.9155,
+      0.5916
+    ],
+    "value": 0.54717665033208
+  },
+  "primary_d08b": {
+    "mean_logit_diff_by_epoch": [
+      0.2549,
+      -0.1261,
+      0.0041,
+      -0.0199,
+      -0.5773,
+      0.0731,
+      -0.0977,
+      -1.0977,
+      0.5585,
+      0.1218
+    ],
+    "transitions": [
+      0.381,
+      0.1301,
+      0.0239,
+      0.5574,
+      0.6504,
+      0.1708,
+      0.9999,
+      1.6562,
+      0.4367
+    ],
+    "value": 0.5562740683831551
+  },
+  "primary_metric": {
+    "comparison": "balanced (this stage) vs D08-B epochs 1-10 (original grouping, same configuration)",
+    "name": "mean absolute epoch-to-epoch change of the mean logit difference (LUSC - LUAD)",
+    "population": "the same 60 pilot-train patients, all 64 patches, no augmentation, eval mode, after each epoch",
+    "success_requires": "lower instability WITHOUT loss of class separation (train-eval and validation mean p difference / AUROC must not collapse); validation is descriptive only",
+    "transitions": "epochs 1->2 ... 9->10 (9 transitions)"
+  }
+}

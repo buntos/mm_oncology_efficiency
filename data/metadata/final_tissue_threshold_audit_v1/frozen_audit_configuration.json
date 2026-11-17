@@ -1,0 +1,40 @@
+{
+  "audit_name": "final_tissue_threshold_audit_v1",
+  "audit_protocol": "V2_PROD_TISSUE_THRESHOLD_SWEEP+FROZEN_ARTIFACT_QC_CANDIDATE_V1",
+  "tissue_thresholds": [
+    0.9,
+    0.85,
+    0.8,
+    0.75,
+    0.7
+  ],
+  "candidate_tissue_fraction": 0.7,
+  "max_background_fraction": 0.1,
+  "max_white_fraction": 0.1,
+  "artifact_qc_protocol": "SENSITIVE_CANDIDATE_V1",
+  "artifact_rules": {
+    "near_black_fraction_min": 0.3,
+    "flat_gradient_max": 0.3,
+    "flat_red_excess_min": 125.0,
+    "flat_cyan_excess_min": 8.0,
+    "hyper_red_excess_min": 140.0,
+    "hyper_red_saturation_min": 0.75,
+    "hyper_cyan_excess_min": 18.0,
+    "hyper_cyan_saturation_min": 0.6
+  },
+  "failure_cases": [
+    "TCGA-05-4244",
+    "TCGA-05-4396",
+    "TCGA-05-4397",
+    "TCGA-05-4434",
+    "TCGA-66-2753"
+  ],
+  "control_cases": [
+    "TCGA-55-6986",
+    "TCGA-39-5040",
+    "TCGA-64-5774",
+    "TCGA-66-2789",
+    "TCGA-21-5782"
+  ],
+  "important_note": "Only FINAL_TISSUE_FRACTION varies. Candidate tissue detection, background QC, white-pixel QC and artifact-QC remain frozen."
+}

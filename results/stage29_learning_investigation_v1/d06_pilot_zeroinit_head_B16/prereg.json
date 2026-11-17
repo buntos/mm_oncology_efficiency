@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-12T21:20:02.144037+00:00",
+  "variant": "zeroinit_head",
+  "budget": 16,
+  "seed": 20261113,
+  "epochs": 5,
+  "single_change": "classifier.weight=0, classifier.bias=0",
+  "primary_fix_declared_before_run": "zeroinit_head",
+  "symptom_metrics": [
+    "validation p_LUSC SD per epoch",
+    "fraction of validation patients flipping class together",
+    "validation AUROC (n=20, descriptive only)",
+    "train pooled-feature magnitude after epoch 5"
+  ],
+  "diagnostic_script_sha256": "4e03ef2e143e374587f4dafb797b2cc2d78b44ecd9caa117c2cd6b1cb95eaef3",
+  "stage29_script_sha256": "a8a7409a32c748c3529544138b5e20b8f6294b233a8fb22c20585dcd522ab09d"
+}

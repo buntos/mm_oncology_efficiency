@@ -1,0 +1,37 @@
+{
+  "cohort": {
+    "bytes": 409641,
+    "path": "C:\\research\\mm_oncology_efficiency\\data\\manifests\\paired_cohort_stage2.csv",
+    "sha256": "0b62f5aa3b1dc09f9e96c411edb04b4456004a188eaa882072e4339e2d1611fa"
+  },
+  "config": {
+    "bytes": 2233,
+    "path": "C:\\research\\mm_oncology_efficiency\\data\\metadata\\production_final_v2_tissue080\\frozen_protocol_configuration.json",
+    "sha256": "a8b34c4ab05e987a7ac07c62228d20c2fc75f7fe247d3241ba3890e8c6fe4484"
+  },
+  "qc": {
+    "bytes": 263658,
+    "path": "C:\\research\\mm_oncology_efficiency\\data\\metadata\\production_final_v2_tissue080\\batches\\final_full_cohort_v1_patient_qc.csv",
+    "sha256": "a7043c92c3e99c99c326544f0c29bad3a3a66788de21e5b250d07dcd0bd4cdef"
+  },
+  "script11": {
+    "bytes": 57406,
+    "path": "C:\\research\\mm_oncology_efficiency\\scripts\\11_process_cohort_batch_v2_prod.py",
+    "sha256": "3af2ff8ce9d085a3723eb29542f10fdbc97aa449422fafd3815683d5e5857b60"
+  },
+  "script17": {
+    "bytes": 52010,
+    "path": "C:\\research\\mm_oncology_efficiency\\scripts\\17_process_cohort_v2prod_artifact_qc.py",
+    "sha256": "89edd15f150e30f424e945290ed22ba23cebc75d679d2ad70db3c3669d805b86"
+  },
+  "script24": {
+    "bytes": 45826,
+    "path": "C:\\research\\mm_oncology_efficiency\\scripts\\24_process_final_full_cohort.py",
+    "sha256": "c97ada4ce9b5f8a3f669b63035f90f072ab13233906ce42e87ebd005848cd664"
+  },
+  "tiles": {
+    "bytes": 27571472,
+    "path": "C:\\research\\mm_oncology_efficiency\\data\\manifests\\production_final_v2_tissue080\\batches\\final_full_cohort_v1_tile_manifest.csv",
+    "sha256": "9aef5106e4907ad846039be0a4c0bdf84d824a82daeb856355703ddacc2665e0"
+  }
+}

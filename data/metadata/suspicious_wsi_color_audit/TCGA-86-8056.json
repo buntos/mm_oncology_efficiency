@@ -1,0 +1,16 @@
+{
+  "case_submitter_id": "TCGA-86-8056",
+  "selected_wsi_file_id": "c7aad125-c092-4451-8480-993a3d982879",
+  "selected_slide_token": "DX1",
+  "wsi_file_name": "TCGA-86-8056-01Z-00-DX1.eee7e03a-842c-4a44-bff8-f7b906725605.svs",
+  "icc_available": true,
+  "icc_profile_text": "ScanScope v1",
+  "icc_rendering_intent": 0,
+  "tiles": 64,
+  "saved_vs_raw_mae_mean": 0.0,
+  "saved_vs_raw_mae_max": 0.0,
+  "raw_vs_srgb_mae_mean": 18.84422415494919,
+  "raw_vs_srgb_mae_median": 22.092254638671875,
+  "raw_vs_srgb_mae_max": 29.0434627532959,
+  "raw_vs_srgb_p95_mean": 22.338541612029076
+}

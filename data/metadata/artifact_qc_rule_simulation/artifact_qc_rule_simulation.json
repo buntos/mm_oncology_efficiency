@@ -1,0 +1,68 @@
+{
+  "purpose": "Diagnostic simulation of candidate artifact rejection rules.",
+  "important_note": "No threshold in this script is a frozen production threshold. Rules must be reviewed visually and validated on an independent batch.",
+  "input_metrics": "C:\\research\\mm_oncology_efficiency\\results\\processed\\validation30_v2prod_tile_artifact_metrics.csv",
+  "patients": 30,
+  "tiles": 1920,
+  "reference_suspicious_cases": [
+    "TCGA-78-8660",
+    "TCGA-86-8056",
+    "TCGA-86-8278"
+  ],
+  "rulesets": {
+    "conservative": {
+      "thresholds": {
+        "black_fraction": 0.7,
+        "flat_gradient": 0.16,
+        "flat_red_excess": 140.0,
+        "flat_cyan_excess": 15.0,
+        "hyper_red_excess": 160.0,
+        "hyper_red_saturation": 0.85,
+        "hyper_cyan_excess": 35.0,
+        "hyper_cyan_saturation": 0.7
+      },
+      "tiles_rejected": 46,
+      "patients_affected": 3,
+      "rejected_csv": "C:\\research\\mm_oncology_efficiency\\results\\artifact_qc_rule_simulation\\conservative\\rejected_tiles.csv",
+      "patient_summary_csv": "C:\\research\\mm_oncology_efficiency\\results\\artifact_qc_rule_simulation\\conservative\\patient_summary.csv",
+      "rejected_contact_sheet": "C:\\research\\mm_oncology_efficiency\\results\\figures\\artifact_qc_rule_simulation\\conservative\\01_would_reject.jpg",
+      "retained_contact_sheet": "C:\\research\\mm_oncology_efficiency\\results\\figures\\artifact_qc_rule_simulation\\conservative\\02_highest_risk_retained.jpg"
+    },
+    "balanced": {
+      "thresholds": {
+        "black_fraction": 0.5,
+        "flat_gradient": 0.22,
+        "flat_red_excess": 135.0,
+        "flat_cyan_excess": 12.0,
+        "hyper_red_excess": 150.0,
+        "hyper_red_saturation": 0.8,
+        "hyper_cyan_excess": 25.0,
+        "hyper_cyan_saturation": 0.65
+      },
+      "tiles_rejected": 61,
+      "patients_affected": 3,
+      "rejected_csv": "C:\\research\\mm_oncology_efficiency\\results\\artifact_qc_rule_simulation\\balanced\\rejected_tiles.csv",
+      "patient_summary_csv": "C:\\research\\mm_oncology_efficiency\\results\\artifact_qc_rule_simulation\\balanced\\patient_summary.csv",
+      "rejected_contact_sheet": "C:\\research\\mm_oncology_efficiency\\results\\figures\\artifact_qc_rule_simulation\\balanced\\01_would_reject.jpg",
+      "retained_contact_sheet": "C:\\research\\mm_oncology_efficiency\\results\\figures\\artifact_qc_rule_simulation\\balanced\\02_highest_risk_retained.jpg"
+    },
+    "sensitive": {
+      "thresholds": {
+        "black_fraction": 0.3,
+        "flat_gradient": 0.3,
+        "flat_red_excess": 125.0,
+        "flat_cyan_excess": 8.0,
+        "hyper_red_excess": 140.0,
+        "hyper_red_saturation": 0.75,
+        "hyper_cyan_excess": 18.0,
+        "hyper_cyan_saturation": 0.6
+      },
+      "tiles_rejected": 83,
+      "patients_affected": 3,
+      "rejected_csv": "C:\\research\\mm_oncology_efficiency\\results\\artifact_qc_rule_simulation\\sensitive\\rejected_tiles.csv",
+      "patient_summary_csv": "C:\\research\\mm_oncology_efficiency\\results\\artifact_qc_rule_simulation\\sensitive\\patient_summary.csv",
+      "rejected_contact_sheet": "C:\\research\\mm_oncology_efficiency\\results\\figures\\artifact_qc_rule_simulation\\sensitive\\01_would_reject.jpg",
+      "retained_contact_sheet": "C:\\research\\mm_oncology_efficiency\\results\\figures\\artifact_qc_rule_simulation\\sensitive\\02_highest_risk_retained.jpg"
+    }
+  }
+}

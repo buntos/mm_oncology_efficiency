@@ -1,0 +1,10 @@
+{
+  "budget": 64,
+  "max_epochs": 1,
+  "patience": 5,
+  "protocol_sha256": "8517079c2734fde7c165e860aee0bb6891dfd4799df49fc6ba900c6d1aebc4df",
+  "seed": 20261113,
+  "subset": "compat_pilot80",
+  "train_n": 60,
+  "validation_n": 20
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "checks": {
+    "model": true,
+    "optimizer": true,
+    "scaler": true,
+    "rng": true,
+    "progress_metrics_identical_excluding_wall_time": true,
+    "progress_groups_identical": true,
+    "progress_steps_identical": true,
+    "progress_predictions_identical": true,
+    "metric_rows_no_duplicates": true,
+    "group_rows_no_duplicates": true,
+    "csv_tables_identical": true,
+    "epoch_metrics_csv_identical_excluding_wall_time": true
+  },
+  "interrupted_sessions": 3,
+  "interruptions": [
+    "after optimizer step 7 (mid epoch 1)",
+    "after optimizer step 18 (epoch 2, after epoch-1 commit)"
+  ],
+  "excluded_from_equality": {
+    "fields": [
+      "train_seconds"
+    ],
+    "continuous_vs_interrupted_per_epoch": {
+      "0": [
+        null,
+        null
+      ],
+      "1": [
+        20.975580900005298,
+        21.39090109999961
+      ],
+      "2": [
+        20.90823029999592,
+        21.199358799996844
+      ]
+    }
+  },
+  "wall_seconds": {
+    "continuous": 123.4044128999958,
+    "interrupted_total": 192.9880176000006
+  },
+  "epochs": 2,
+  "mode": "balanced",
+  "comparison_script_sha256": "20c8a3af5c3bb9f1c25dd3a322ece6fb43fb8f902a05644c211262b45b2d5ca7"
+}

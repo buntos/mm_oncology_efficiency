@@ -1,0 +1,78 @@
+{
+  "init": {
+    "epoch_completed": 0,
+    "pooled_abs_mean": 0.6639391183853149,
+    "pooled_between_patient_sd_mean": 0.23782148957252502,
+    "pooled_cosine_mean": 0.9142710566520691,
+    "logit_diff_mean": 1.1543697535991668,
+    "logit_diff_sd": 0.40412218655790333,
+    "p_LUSC_sd": 0.0708180927900726,
+    "train_auroc_no_aug_64": 0.5555555555555556
+  },
+  "B64/checkpoint_00000008": {
+    "epoch_completed": 2,
+    "pooled_abs_mean": 0.12513500452041626,
+    "pooled_between_patient_sd_mean": 0.022839223966002464,
+    "pooled_cosine_mean": 0.980716347694397,
+    "logit_diff_mean": -0.12891129218041897,
+    "logit_diff_sd": 0.025712548654394193,
+    "p_LUSC_sd": 0.0063988529804868,
+    "train_auroc_no_aug_64": 0.6533333333333333,
+    "position": 0
+  },
+  "B64/checkpoint_00000019": {
+    "epoch_completed": 4,
+    "pooled_abs_mean": 0.049967892467975616,
+    "pooled_between_patient_sd_mean": 0.01020573265850544,
+    "pooled_cosine_mean": 0.9716901779174805,
+    "logit_diff_mean": 0.011425260857989391,
+    "logit_diff_sd": 0.033430008572802865,
+    "p_LUSC_sd": 0.008354483883194768,
+    "train_auroc_no_aug_64": 0.6511111111111113,
+    "position": 60
+  },
+  "B64/checkpoint_00000020": {
+    "epoch_completed": 5,
+    "pooled_abs_mean": 0.049967892467975616,
+    "pooled_between_patient_sd_mean": 0.01020573265850544,
+    "pooled_cosine_mean": 0.9716901779174805,
+    "logit_diff_mean": 0.011425260857989391,
+    "logit_diff_sd": 0.033430008572802865,
+    "p_LUSC_sd": 0.008354483883194768,
+    "train_auroc_no_aug_64": 0.6511111111111113,
+    "position": 0
+  },
+  "B16/checkpoint_00000008": {
+    "epoch_completed": 2,
+    "pooled_abs_mean": 0.13658131659030914,
+    "pooled_between_patient_sd_mean": 0.0274563767015934,
+    "pooled_cosine_mean": 0.9797054529190063,
+    "logit_diff_mean": -0.14704594127833842,
+    "logit_diff_sd": 0.02375846569071833,
+    "p_LUSC_sd": 0.005902280946391465,
+    "train_auroc_no_aug_64": 0.7011111111111111,
+    "position": 0
+  },
+  "B16/checkpoint_00000019": {
+    "epoch_completed": 4,
+    "pooled_abs_mean": 0.07169626653194427,
+    "pooled_between_patient_sd_mean": 0.015215568244457245,
+    "pooled_cosine_mean": 0.9774520397186279,
+    "logit_diff_mean": 0.04182305045736333,
+    "logit_diff_sd": 0.013703570172717311,
+    "p_LUSC_sd": 0.0034243627935740826,
+    "train_auroc_no_aug_64": 0.7144444444444444,
+    "position": 60
+  },
+  "B16/checkpoint_00000020": {
+    "epoch_completed": 5,
+    "pooled_abs_mean": 0.07169626653194427,
+    "pooled_between_patient_sd_mean": 0.015215568244457245,
+    "pooled_cosine_mean": 0.9774520397186279,
+    "logit_diff_mean": 0.04182305045736333,
+    "logit_diff_sd": 0.013703570172717311,
+    "p_LUSC_sd": 0.0034243627935740826,
+    "train_auroc_no_aug_64": 0.7144444444444444,
+    "position": 0
+  }
+}

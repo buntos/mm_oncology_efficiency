@@ -1,0 +1,48 @@
+{
+  "disk_free_bytes": 63771643904,
+  "executable": "C:\\research\\mm_oncology_efficiency\\.venv\\Scripts\\python.exe",
+  "gpu_forward_backward_tested": false,
+  "gpu_probe": {
+    "cuda_available": true,
+    "cuda_runtime": "12.6",
+    "devices": [
+      {
+        "compute_capability": [
+          7,
+          5
+        ],
+        "free_memory_bytes": 7493124096,
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 2070",
+        "reported_total_memory_bytes": 8589475840,
+        "total_memory_bytes": 8589475840
+      }
+    ],
+    "errors": [],
+    "ready": true,
+    "resnet18_available": true,
+    "torch": "2.12.1+cu126",
+    "torchvision": "0.27.1+cu126",
+    "weights_enum": "ResNet18_Weights.IMAGENET1K_V1",
+    "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+  },
+  "logical_cpu_count": 16,
+  "nvidia_smi": "NVIDIA GeForce RTX 2070, 560.94, 8192 MiB, 7134 MiB",
+  "physical_cpu_count": 8,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "ram": {
+    "available_bytes": 14232199168,
+    "total_bytes": 34273689600
+  },
+  "ready": true,
+  "versions": {
+    "Pillow": "12.3.0",
+    "numpy": "2.5.2",
+    "psutil": "7.2.2",
+    "torch": "2.12.1+cu126",
+    "torchvision": "0.27.1+cu126"
+  },
+  "warnings": []
+}

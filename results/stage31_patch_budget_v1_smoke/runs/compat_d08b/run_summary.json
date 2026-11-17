@@ -1,0 +1,45 @@
+{
+  "attempts_total": 15,
+  "best_checkpoint_sequence": 5,
+  "completed_epochs": 1,
+  "executed_total": 15,
+  "ledger": {
+    "note": "Power-off pauses excluded. Unclean tail after last durable heartbeat is unknown, not zero.",
+    "recorded_active_seconds_including_replay": 42.733233799997834,
+    "recorded_cpu_seconds": 130.53125,
+    "sessions": 1,
+    "time_is_lower_bound": false,
+    "unclean_sessions": []
+  },
+  "selection": {
+    "best_ce": 0.6883137032389641,
+    "best_epoch": 1,
+    "epochs_without_improvement": 0
+  },
+  "skipped_total": 0,
+  "status": "MAX_EPOCHS",
+  "test_scored": false,
+  "time_note": "Wall/CPU time, not 'GPU time'. Includes setup and replayed work after crashes; if time_is_lower_bound, an unclean tail after the last durable heartbeat is unknown.",
+  "train_eval_subset": [
+    "TCGA-86-A4P8",
+    "TCGA-99-8032",
+    "TCGA-55-8614",
+    "TCGA-49-AARE",
+    "TCGA-75-5147",
+    "TCGA-50-5044",
+    "TCGA-78-7542",
+    "TCGA-64-5779",
+    "TCGA-55-8514",
+    "TCGA-44-A4SU",
+    "TCGA-21-1082",
+    "TCGA-56-8503",
+    "TCGA-58-A46N",
+    "TCGA-85-A510",
+    "TCGA-77-A5GB",
+    "TCGA-70-6722",
+    "TCGA-43-3920",
+    "TCGA-63-A5MG",
+    "TCGA-85-7699",
+    "TCGA-33-AASI"
+  ]
+}

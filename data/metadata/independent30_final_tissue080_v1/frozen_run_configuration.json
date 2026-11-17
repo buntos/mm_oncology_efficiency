@@ -1,0 +1,27 @@
+{
+  "batch_name": "independent30_final_tissue080_v1",
+  "batch_size": 30,
+  "expected_balance": {
+    "LUAD": 15,
+    "LUSC": 15
+  },
+  "candidate_tissue_fraction": 0.7,
+  "final_tissue_fraction": 0.8,
+  "max_background_fraction": 0.1,
+  "max_white_fraction": 0.1,
+  "tile_size": 256,
+  "target_tiles": 64,
+  "artifact_rules": {
+    "near_black_fraction_min": 0.3,
+    "flat_gradient_max": 0.3,
+    "flat_red_excess_min": 125.0,
+    "flat_cyan_excess_min": 8.0,
+    "hyper_red_excess_min": 140.0,
+    "hyper_red_saturation_min": 0.75,
+    "hyper_cyan_excess_min": 18.0,
+    "hyper_cyan_saturation_min": 0.6
+  },
+  "script17_sha256": "89edd15f150e30f424e945290ed22ba23cebc75d679d2ad70db3c3669d805b86",
+  "script11_sha256": "3af2ff8ce9d085a3723eb29542f10fdbc97aa449422fafd3815683d5e5857b60",
+  "rule": "This is a fresh independent validation. Do not tune preprocessing thresholds using its results."
+}

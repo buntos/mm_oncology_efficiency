@@ -1,0 +1,11 @@
+case_submitter_id,class_label,group,selected_0.70,selected_0.75,selected_0.80,selected_0.85,selected_0.90
+TCGA-05-4244,LUAD,failure,64,64,64,64,13
+TCGA-05-4396,LUAD,failure,4,4,4,2,1
+TCGA-05-4397,LUAD,failure,7,6,5,2,1
+TCGA-05-4434,LUAD,failure,0,0,0,0,0
+TCGA-21-5782,LUSC,control,64,64,64,64,64
+TCGA-39-5040,LUSC,control,64,64,64,64,64
+TCGA-55-6986,LUAD,control,64,64,64,64,64
+TCGA-64-5774,LUAD,control,64,64,64,64,64
+TCGA-66-2753,LUSC,failure,64,64,64,54,19
+TCGA-66-2789,LUSC,control,64,64,64,64,64

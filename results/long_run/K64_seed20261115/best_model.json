@@ -1,0 +1,19 @@
+{
+  "budget": 64,
+  "checkpoint_sequence": 180,
+  "epoch": 6,
+  "identity": {
+    "budget": 64,
+    "max_epochs": 30,
+    "patience": 5,
+    "protocol_sha256": "22914f0aa57fea450eb8704e9823a74f0b75a1c048cf8c603cc029da2edce015",
+    "seed": 20261115,
+    "subset": "full",
+    "train_n": 557,
+    "validation_n": 186
+  },
+  "seed": 20261115,
+  "sha256": "d844a88ce63a26121fcf050f56afc6c771d725b460e9a73c3a83a55e92d265d5",
+  "utc": "2026-11-13T18:11:18.127213+00:00",
+  "val_ce": 0.43747724879593136
+}

@@ -1,0 +1,19 @@
+{
+  "protocol_version": "V2_HSV_saturation",
+  "patients": 10,
+  "patients_pass": 9,
+  "tile_size": 256,
+  "stride": 256,
+  "target_tiles_per_patient": 64,
+  "candidate_tissue_fraction": 0.7,
+  "final_tissue_fraction": 0.9,
+  "saturation_floor": 0.03,
+  "max_tissue_value": 0.95,
+  "background_saturation_max": 0.04,
+  "background_value_min": 0.55,
+  "max_background_fraction": 0.1,
+  "white_value_min": 0.97,
+  "max_white_fraction": 0.1,
+  "total_tiles": 581,
+  "overall_pass": false
+}

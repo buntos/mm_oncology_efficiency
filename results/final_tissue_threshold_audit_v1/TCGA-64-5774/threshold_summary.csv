@@ -1,0 +1,6 @@
+case_submitter_id,class_label,group,file_id,slide_token,threshold,selected_tiles,reached_64,checked_to_64,pass_count_seen,candidates_total,candidates_checked,scan_exhausted,background_fail_seen,white_fail_seen,artifact_rejected_seen,raw_otsu_saturation,saturation_threshold,tissue_mask_fraction
+TCGA-64-5774,LUAD,control,b802f195-c4c6-4fe4-9b1f-3c59027f4120,DX1,0.9,64,True,3227,64,9868,3227,False,1682,0,0,0.087890625,0.087890625,0.2783862127774004
+TCGA-64-5774,LUAD,control,b802f195-c4c6-4fe4-9b1f-3c59027f4120,DX1,0.85,64,True,658,252,9868,3227,False,1682,0,0,0.087890625,0.087890625,0.2783862127774004
+TCGA-64-5774,LUAD,control,b802f195-c4c6-4fe4-9b1f-3c59027f4120,DX1,0.8,64,True,330,613,9868,3227,False,1682,0,0,0.087890625,0.087890625,0.2783862127774004
+TCGA-64-5774,LUAD,control,b802f195-c4c6-4fe4-9b1f-3c59027f4120,DX1,0.75,64,True,184,1206,9868,3227,False,1682,0,0,0.087890625,0.087890625,0.2783862127774004
+TCGA-64-5774,LUAD,control,b802f195-c4c6-4fe4-9b1f-3c59027f4120,DX1,0.7,64,True,136,1479,9868,3227,False,1682,0,0,0.087890625,0.087890625,0.2783862127774004

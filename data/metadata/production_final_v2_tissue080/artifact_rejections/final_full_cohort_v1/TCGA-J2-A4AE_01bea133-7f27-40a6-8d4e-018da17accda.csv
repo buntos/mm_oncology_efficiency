@@ -1,0 +1,2 @@
+case_submitter_id,class_label,file_id,slide_token,candidate_checked_index,x_level0,y_level0,approx_tissue_fraction,final_tissue_fraction,background_fraction,white_fraction,near_black_fraction,gradient_mean,red_excess,cyan_excess,saturation_mean,artifact_reasons,artifact_image_path,artifact_qc_protocol
+TCGA-J2-A4AE,LUAD,01bea133-7f27-40a6-8d4e-018da17accda,DX1,27,68352,29440,1.0,1.0,0.0,0.0,0.0229949951171875,0.557426929473877,-35.96733093261719,35.96733093261719,0.8224647045135498,hyper_cyan_saturated,,V2_FINAL_HSV_64x256+TISSUE080+ARTIFACT_QC_V1

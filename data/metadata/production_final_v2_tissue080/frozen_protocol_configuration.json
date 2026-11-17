@@ -1,0 +1,55 @@
+{
+  "protocol_name": "V2_FINAL_HSV_64x256+TISSUE080+ARTIFACT_QC_V1",
+  "namespace": "production_final_v2_tissue080",
+  "batch_name": "final_full_cohort_v1",
+  "cohort": {
+    "patients": 950,
+    "LUAD": 474,
+    "LUSC": 476,
+    "stage2_cohort_file": "data\\manifests\\paired_cohort_stage2.csv",
+    "stage2_cohort_sha256": "0b62f5aa3b1dc09f9e96c411edb04b4456004a188eaa882072e4339e2d1611fa"
+  },
+  "tiling": {
+    "tile_size": 256,
+    "target_tiles": 64,
+    "candidate_tissue_fraction": 0.7,
+    "final_tissue_fraction": 0.8,
+    "max_background_fraction": 0.1,
+    "max_white_fraction": 0.1,
+    "selection": "deterministic candidate order per WSI",
+    "diagnostic_slide_fallback": "DX1 -> DX2 -> DX3/... until 64 valid tiles"
+  },
+  "artifact_qc": {
+    "name": "SENSITIVE_CANDIDATE_V1",
+    "rules": {
+      "near_black_fraction_min": 0.3,
+      "flat_gradient_max": 0.3,
+      "flat_red_excess_min": 125.0,
+      "flat_cyan_excess_min": 8.0,
+      "hyper_red_excess_min": 140.0,
+      "hyper_red_saturation_min": 0.75,
+      "hyper_cyan_excess_min": 18.0,
+      "hyper_cyan_saturation_min": 0.6
+    }
+  },
+  "operational_hardening": {
+    "png_metadata": "Strip PNG ancillary metadata including ICC/iCCP without ICC-to-sRGB color conversion.",
+    "pixel_values_changed_by_png_fix": false,
+    "contact_sheet_failure": "NON_FATAL",
+    "gdc_download_timeout_seconds": 1800,
+    "gdc_download_retries": 3,
+    "gdc_resume_partial": true,
+    "download_validation": "expected size + MD5",
+    "delete_raw_wsi_after_processing": true,
+    "save_rejected_artifact_images": false
+  },
+  "code": {
+    "script24": "scripts\\24_process_final_full_cohort.py",
+    "script24_sha256": "c97ada4ce9b5f8a3f669b63035f90f072ab13233906ce42e87ebd005848cd664",
+    "script17": "scripts\\17_process_cohort_v2prod_artifact_qc.py",
+    "script17_sha256": "89edd15f150e30f424e945290ed22ba23cebc75d679d2ad70db3c3669d805b86",
+    "script11": "scripts\\11_process_cohort_batch_v2_prod.py",
+    "script11_sha256": "3af2ff8ce9d085a3723eb29542f10fdbc97aa449422fafd3815683d5e5857b60"
+  },
+  "scientific_freeze": "No preprocessing threshold may be changed after final full-cohort processing begins."
+}

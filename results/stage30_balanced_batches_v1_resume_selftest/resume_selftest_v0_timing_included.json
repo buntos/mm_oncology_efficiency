@@ -1,0 +1,25 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "model": true,
+    "optimizer": true,
+    "scaler": true,
+    "rng": true,
+    "progress_metrics_identical": false,
+    "progress_groups_identical": true,
+    "progress_predictions_identical": true,
+    "metric_rows_no_duplicates": true,
+    "csv_tables_identical": false
+  },
+  "interrupted_sessions": 3,
+  "interruptions": [
+    "after optimizer step 7 (mid epoch 1)",
+    "after optimizer step 18 (epoch 2, after epoch-1 commit)"
+  ],
+  "wall_seconds": {
+    "continuous": 123.4044128999958,
+    "interrupted_total": 192.9880176000006
+  },
+  "epochs": 2,
+  "mode": "balanced"
+}

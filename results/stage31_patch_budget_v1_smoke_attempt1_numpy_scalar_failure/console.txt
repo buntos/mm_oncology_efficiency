@@ -1,0 +1,28 @@
+PREPARED (SMOKE_TEST_ONLY): C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_smoke. No training has run.
+START: C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_smoke\runs\compat_d08b
+K64 s20261113 ep 1: trainCE=0.7545 valCE=0.6883 AUROC=0.610 BA=0.500 best=1(0.6883) wait=0 skips=0 status=MAX_EPOCHS
+FINISHED MAX_EPOCHS: best epoch 1 (val CE 0.6883137032389641); C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_smoke\runs\compat_d08b
+Traceback (most recent call last):
+  File "C:\research\mm_oncology_efficiency\scripts\31_train_patch_budget_baselines.py", line 1143, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\research\mm_oncology_efficiency\scripts\31_train_patch_budget_baselines.py", line 1122, in main
+    return smoke()
+           ^^^^^^^
+  File "C:\research\mm_oncology_efficiency\scripts\31_train_patch_budget_baselines.py", line 825, in smoke
+    report["checks"]["compat_d08b"] = compare_d08b(out / "runs" / "compat_d08b")
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\research\mm_oncology_efficiency\scripts\31_train_patch_budget_baselines.py", line 854, in compare_d08b
+    st = final_checkpoint(run_dir)["progress"]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\research\mm_oncology_efficiency\scripts\31_train_patch_budget_baselines.py", line 848, in final_checkpoint
+    return T.load(last / "state.pt", map_location="cpu", weights_only=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\research\mm_oncology_efficiency\.venv\Lib\site-packages\torch\serialization.py", line 1578, in load
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy._core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy._core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy._core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.

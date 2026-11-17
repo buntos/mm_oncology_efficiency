@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "budget": 64,
+    "max_epochs": 1,
+    "patience": 5,
+    "protocol_sha256": "11501ff52e5a75f1ecb98e49fa491be2931c7a8e61bb5f636da5a9b8287cbf88",
+    "seed": 20261113,
+    "subset": "compat_pilot80",
+    "train_n": 60,
+    "validation_n": 20
+  },
+  "note": "Power-off pauses excluded. Unclean tail after last durable heartbeat is unknown, not zero.",
+  "outcome": "MAX_EPOCHS",
+  "recorded_active_seconds_including_replay": 42.733233799997834,
+  "recorded_cpu_seconds": 130.53125,
+  "resume": "repeat the same --run command",
+  "sessions": 1,
+  "status": "COMPLETE",
+  "time_is_lower_bound": false,
+  "unclean_sessions": [],
+  "utc": "2026-11-12T23:41:44.472156+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "protocol_namespace": "production_final_v2_tissue080",
+  "protocol_name": "V2_FINAL_HSV_64x256+TISSUE080+ARTIFACT_QC_V1",
+  "artifact_protocol_name": "V2_FINAL_HSV_64x256+TISSUE080+ARTIFACT_QC_V1",
+  "status": "FROZEN_FOR_INDEPENDENT_VALIDATION",
+  "source_validation_batch": "validation30_v2prod",
+  "rules": {
+    "near_black_fraction_min": 0.3,
+    "flat_gradient_max": 0.3,
+    "flat_red_excess_min": 125.0,
+    "flat_cyan_excess_min": 8.0,
+    "hyper_red_excess_min": 140.0,
+    "hyper_red_saturation_min": 0.75,
+    "hyper_cyan_excess_min": 18.0,
+    "hyper_cyan_saturation_min": 0.6
+  },
+  "important_note": "These thresholds must not be tuned on the independent validation batch."
+}

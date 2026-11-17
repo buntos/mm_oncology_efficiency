@@ -1,0 +1,154 @@
+{
+  "checks": {
+    "compat_d08b": {
+      "attempted_executed_skipped": [
+        15,
+        15,
+        0
+      ],
+      "diffs": {
+        "val_auroc": 0.0,
+        "val_balanced_accuracy": 0.0,
+        "val_ce": 0.0,
+        "val_macro_f1": 0.0,
+        "val_p_mean": 0.0,
+        "val_p_sd": 0.0
+      },
+      "groups_and_bias_trajectory_identical": true,
+      "max_abs_diff_epoch1": 0.0,
+      "note": "Same inputs/initial weights as D08-B (pilot 60/20, K=64, seed 20261113); Stage 31 loader/train_group/evaluate are ports.",
+      "status": "PASS",
+      "validation_predictions_identical": true
+    },
+    "reopen_completed": {
+      "historical_tables_byte_identical": {
+        "epoch_metrics.csv": true,
+        "groups.csv": true,
+        "resources_by_epoch.csv": true,
+        "validation_predictions.csv": true
+      },
+      "new_session_post_completion": "True",
+      "sessions_before_after": [
+        1,
+        2
+      ],
+      "status": "PASS"
+    },
+    "resume": {
+      "attempts": [
+        8,
+        8,
+        0
+      ],
+      "checks": {
+        "best_model_verified": true,
+        "csv_identical": true,
+        "model": true,
+        "no_duplicate_group_rows": true,
+        "no_duplicate_metric_rows": true,
+        "optimizer": true,
+        "partial_group_present": true,
+        "progress_attempts_total_identical": true,
+        "progress_epoch_identical": true,
+        "progress_executed_total_identical": true,
+        "progress_groups_identical": true,
+        "progress_metrics_identical": true,
+        "progress_predictions_identical": true,
+        "progress_selection_identical": true,
+        "progress_skipped_total_identical": true,
+        "progress_status_identical": true,
+        "resource_checkpoint_counts_equal": true,
+        "resource_epochs_0_1_2": true,
+        "resource_logical_attempts_equal": true,
+        "resource_no_negative_values": true,
+        "resource_no_validation_or_diag_replay": true,
+        "resource_replay_counted_epoch1": true,
+        "resource_train_time_present_every_epoch": true,
+        "resource_unclean_sessions_flagged": true,
+        "rng": true,
+        "scaler": true
+      },
+      "interrupted_resource_summary": {
+        "active_seconds_is_lower_bound": true,
+        "active_seconds_post_completion_sessions": 0,
+        "active_seconds_training_sessions": 102.46691009998904,
+        "journal_unparsable_lines": 0,
+        "note": "Actual work from resource_journal.jsonl (includes replay after rollback). Wall/CPU time, not 'GPU time'. Sessions without session_end have an unknown tail: their active time is a lower bound. Unmeasured checkpoints were written but their write time was not journaled before a crash.",
+        "sessions": 4,
+        "total_aux_io_wall_seconds": 1.62408609999693,
+        "total_checkpoint_io_wall_seconds": 6.889994500001194,
+        "total_checkpoints_measured": 8,
+        "total_checkpoints_unmeasured": 0,
+        "total_diagnostics_wall_seconds": 6.410146600013832,
+        "total_setup_wall_seconds": 77.37689939998381,
+        "total_train_attempts_executed_work": 11,
+        "total_train_attempts_replayed": 3,
+        "total_train_wall_seconds": 4.4805753999971785,
+        "total_validation_wall_seconds": 3.6784798000153387,
+        "unclean_sessions": [
+          "9a6a23bd89a6446cba272b5f3ea37244",
+          "4f200b618beb4e20b5167d769403b947",
+          "f27407acda5e44a6b746c5be053f99ab"
+        ]
+      },
+      "status": "PASS",
+      "timing_excluded_from_equality": {
+        "continuous": [
+          {
+            "aux_io_wall_seconds": 0,
+            "checkpoint_io_wall_seconds": 0.4191207999974722,
+            "diagnostics_wall_seconds": 2.091697199997725,
+            "train_wall_seconds": 0,
+            "validation_wall_seconds": 0
+          },
+          {
+            "aux_io_wall_seconds": 0.5082499999989523,
+            "checkpoint_io_wall_seconds": 2.1375599000020884,
+            "diagnostics_wall_seconds": 1.9337887000001501,
+            "train_wall_seconds": 1.4849211999971885,
+            "validation_wall_seconds": 1.7047197999927448
+          },
+          {
+            "aux_io_wall_seconds": 0.2550517000054242,
+            "checkpoint_io_wall_seconds": 2.936237699992489,
+            "diagnostics_wall_seconds": 1.9018008999992162,
+            "train_wall_seconds": 1.2430562000081409,
+            "validation_wall_seconds": 1.6875422000011895
+          }
+        ],
+        "interrupted": [
+          {
+            "aux_io_wall_seconds": 0,
+            "checkpoint_io_wall_seconds": 0.5627758000046015,
+            "diagnostics_wall_seconds": 2.124930600009975,
+            "train_wall_seconds": 0,
+            "validation_wall_seconds": 0
+          },
+          {
+            "aux_io_wall_seconds": 1.3739618999970844,
+            "checkpoint_io_wall_seconds": 3.2900561999849742,
+            "diagnostics_wall_seconds": 2.1206318000040483,
+            "train_wall_seconds": 3.114322599998559,
+            "validation_wall_seconds": 1.943170900005498
+          },
+          {
+            "aux_io_wall_seconds": 0.2501241999998456,
+            "checkpoint_io_wall_seconds": 3.0371625000116182,
+            "diagnostics_wall_seconds": 2.1645841999998083,
+            "train_wall_seconds": 1.3662527999986196,
+            "validation_wall_seconds": 1.7353089000098407
+          }
+        ]
+      }
+    }
+  },
+  "compat_wall_seconds": 63.088698100007605,
+  "folder": "results\\stage31_patch_budget_v1_1_smoke",
+  "resume_wall_seconds": {
+    "continuous": 58.100039500001,
+    "interrupted_total": 105.98749319999479
+  },
+  "script31_sha256": "53432b4f5af2a8266ae717563de27dda03c412e98f4f737335bd5e905f19160b",
+  "status": "PASS",
+  "utc": "2026-11-13T09:06:19.562670+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "best_sequence": 480,
+  "epoch": 16,
+  "identity": {
+    "budget": 32,
+    "max_epochs": 30,
+    "patience": 5,
+    "protocol_sha256": "22914f0aa57fea450eb8704e9823a74f0b75a1c048cf8c603cc029da2edce015",
+    "seed": 20261113,
+    "subset": "full",
+    "train_n": 557,
+    "validation_n": 186
+  },
+  "position": null,
+  "sequence": 480,
+  "sha256": "fe7f344e8482ed9ef7ae55fe2ac28b99ea26d5d83baeee7dfd0720fff7886272",
+  "utc": "2026-11-13T12:39:29.889307+00:00"
+}

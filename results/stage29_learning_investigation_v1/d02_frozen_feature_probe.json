@@ -1,0 +1,52 @@
+{
+  "n_train": 60,
+  "n_LUSC": 30,
+  "load_bag_vs_independent_max_abs_err": 3.651388333913985e-07,
+  "input_example_stats": {
+    "dtype": "torch.float32",
+    "shape": [
+      16,
+      3,
+      256,
+      256
+    ],
+    "min": -1.6855741739273071,
+    "max": 2.361132860183716,
+    "mean": 0.9467228055000305
+  },
+  "features": {
+    "nonneg_fraction": 1.0,
+    "patch_L1_mean": 339.2371520996094,
+    "patient_mean_L1_mean": 339.2371826171875,
+    "per_dim_mean_over_patients_mean": 0.6625725626945496,
+    "between_patient_var": 0.08330294489860535,
+    "within_patient_var": 0.22288744151592255,
+    "common_mode_energy_ratio": 0.9039784073829651,
+    "cosine_between_patient_means_mean": 0.9139437675476074
+  },
+  "initial_model": {
+    "p_LUSC_mean": 0.7528344551722209,
+    "p_LUSC_sd": 0.07081809963753938,
+    "attention_norm_entropy_mean": 0.9996452858050664,
+    "attention_max_mean": 0.017667057396223148,
+    "initial_loss_mean": 0.8369912567465363
+  },
+  "adam_common_mode_estimate": {
+    "head_lr": 0.001,
+    "approx_logit_diff_shift_per_aligned_step": 0.6784744262695312,
+    "initial_logit_diff_between_patient_sd": 0.4008214771747589
+  },
+  "loo_probe_mean_pool": {
+    "auroc": 0.7166666666666667,
+    "accuracy": 0.5666666666666667
+  },
+  "loo_probe_init_attention_pool": {
+    "auroc": 0.7144444444444444,
+    "accuracy": 0.5666666666666667
+  },
+  "loo_probe_permuted_label_auroc": {
+    "mean": 0.5283888888888889,
+    "max": 0.7311111111111112,
+    "n": 20
+  }
+}

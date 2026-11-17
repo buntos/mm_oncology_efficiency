@@ -1,0 +1,6 @@
+case_submitter_id,class_label,group,file_id,slide_token,threshold,selected_tiles,reached_64,checked_to_64,pass_count_seen,candidates_total,candidates_checked,scan_exhausted,background_fail_seen,white_fail_seen,artifact_rejected_seen,raw_otsu_saturation,saturation_threshold,tissue_mask_fraction
+TCGA-05-4396,LUAD,failure,070defff-1f5d-49e7-85b9-de4508e8a0c9,DX1,0.9,1,False,,1,7686,7686,True,130,7682,0,0.201171875,0.201171875,0.16661200039628624
+TCGA-05-4396,LUAD,failure,070defff-1f5d-49e7-85b9-de4508e8a0c9,DX1,0.85,2,False,,2,7686,7686,True,130,7682,0,0.201171875,0.201171875,0.16661200039628624
+TCGA-05-4396,LUAD,failure,070defff-1f5d-49e7-85b9-de4508e8a0c9,DX1,0.8,4,False,,4,7686,7686,True,130,7682,0,0.201171875,0.201171875,0.16661200039628624
+TCGA-05-4396,LUAD,failure,070defff-1f5d-49e7-85b9-de4508e8a0c9,DX1,0.75,4,False,,4,7686,7686,True,130,7682,0,0.201171875,0.201171875,0.16661200039628624
+TCGA-05-4396,LUAD,failure,070defff-1f5d-49e7-85b9-de4508e8a0c9,DX1,0.7,4,False,,4,7686,7686,True,130,7682,0,0.201171875,0.201171875,0.16661200039628624

@@ -1,0 +1,13 @@
+{"event": "START", "utc": "2026-11-12T23:43:26.413774+00:00", "active_seconds": 0.0007145000054151751, "cpu_seconds": 0.0}
+{"event": "MODEL_READY", "utc": "2026-11-12T23:43:27.291074+00:00", "active_seconds": 0.8779238000061014, "cpu_seconds": 1.890625, "epoch": 0, "phase": "trained", "group": 4}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:43:30.988082+00:00", "active_seconds": 4.574956600001315, "cpu_seconds": 9.53125, "epoch": 1, "phase": "validated", "group": 4}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:43:34.583572+00:00", "active_seconds": 8.170208200004708, "cpu_seconds": 17.328125, "epoch": 2, "phase": "train", "group": 0}
+{"event": "EPOCH_COMMITTED", "utc": "2026-11-12T23:43:35.166267+00:00", "active_seconds": 8.753154700003506, "cpu_seconds": 18.375, "epoch": 1, "improved": true, "status": null}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:43:36.476798+00:00", "active_seconds": 10.063281100003223, "cpu_seconds": 21.734375, "epoch": 2, "group": 1, "skipped": 0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:43:37.873978+00:00", "active_seconds": 11.460748800003785, "cpu_seconds": 23.59375, "epoch": 2, "phase": "train", "group": 1}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:43:38.252675+00:00", "active_seconds": 11.839511400001356, "cpu_seconds": 24.953125, "epoch": 2, "group": 2, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:43:38.635645+00:00", "active_seconds": 12.222005700001318, "cpu_seconds": 26.515625, "epoch": 2, "group": 3, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:43:38.741224+00:00", "active_seconds": 12.328067300004477, "cpu_seconds": 26.9375, "epoch": 2, "group": 4, "skipped": 0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:43:39.477754+00:00", "active_seconds": 13.06436410000606, "cpu_seconds": 28.828125, "epoch": 2, "phase": "trained", "group": 4}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:43:41.883749+00:00", "active_seconds": 15.470521000002918, "cpu_seconds": 36.03125, "epoch": 2, "phase": "validated", "group": 4}
+{"event": "END", "utc": "2026-11-12T23:43:41.901750+00:00", "active_seconds": 15.488735800005088, "cpu_seconds": 36.03125, "outcome": "STOP_REQUESTED at phase (2, 'validated')"}

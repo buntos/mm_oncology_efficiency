@@ -1,0 +1,13 @@
+{
+  "best_sequence": 8,
+  "epoch": 2,
+  "identity": {
+    "budget": 16,
+    "pilot_protocol_sha256": "eaf234335d2f620ebdb26818e3ac7265f87e68f3ff1014464b8d857a4fb602cf",
+    "seed": 20261113
+  },
+  "position": 0,
+  "sequence": 8,
+  "sha256": "176675788c066fb110e503b3c3dd5bad2f90b4d96a1a20c5552dc557baf5abe0",
+  "utc": "2026-11-12T19:39:20.707033+00:00"
+}

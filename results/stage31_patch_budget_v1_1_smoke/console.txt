@@ -1,0 +1,176 @@
+PREPARED (SMOKE_TEST_ONLY): C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke. No training has run.
+START: C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\compat_d08b
+K64 s20261113 ep 1: trainCE=0.7545 valCE=0.6883 AUROC=0.610 BA=0.500 best=1(0.6883) wait=0 skips=0 status=MAX_EPOCHS
+FINISHED MAX_EPOCHS: best epoch 1 (val CE 0.6883137032389641); C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\compat_d08b
+START: C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_continuous
+K16 s20261114 ep 1: trainCE=0.6697 valCE=0.7334 AUROC=0.222 BA=0.500 best=1(0.7334) wait=0 skips=0 status=None
+K16 s20261114 ep 2: trainCE=0.6320 valCE=0.7483 AUROC=0.444 BA=0.500 best=1(0.7334) wait=1 skips=0 status=MAX_EPOCHS
+FINISHED MAX_EPOCHS: best epoch 1 (val CE 0.7334357599417368); C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_continuous
+RESUME epoch 3 phase train group 0 (checkpoint_00000007): C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_continuous
+best_model: verified
+FINISHED MAX_EPOCHS: best epoch 1 (val CE 0.7334357599417368); C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_continuous
+START: C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_interrupted
+STOP REQUESTED (after attempt 3); emulated crash, checkpoint state is resumable.
+RESUME epoch 1 phase train group 0 (checkpoint_00000000): C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_interrupted
+STOP REQUESTED (at phase (1, 'trained')); emulated crash, checkpoint state is resumable.
+RESUME epoch 1 phase trained group 4 (checkpoint_00000001): C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_interrupted
+K16 s20261114 ep 1: trainCE=0.6697 valCE=0.7334 AUROC=0.222 BA=0.500 best=1(0.7334) wait=0 skips=0 status=None
+STOP REQUESTED (at phase (2, 'validated')); emulated crash, checkpoint state is resumable.
+RESUME epoch 2 phase validated group 4 (checkpoint_00000006): C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_interrupted
+best_model: verified
+K16 s20261114 ep 2: trainCE=0.6320 valCE=0.7483 AUROC=0.444 BA=0.500 best=1(0.7334) wait=1 skips=0 status=MAX_EPOCHS
+FINISHED MAX_EPOCHS: best epoch 1 (val CE 0.7334357599417368); C:\research\mm_oncology_efficiency\results\stage31_patch_budget_v1_1_smoke\runs\resume_interrupted
+{
+ "utc": "2026-11-13T09:06:19.562670+00:00",
+ "folder": "results\\stage31_patch_budget_v1_1_smoke",
+ "checks": {
+  "compat_d08b": {
+   "status": "PASS",
+   "max_abs_diff_epoch1": 0.0,
+   "diffs": {
+    "val_ce": 0.0,
+    "val_auroc": 0.0,
+    "val_balanced_accuracy": 0.0,
+    "val_macro_f1": 0.0,
+    "val_p_mean": 0.0,
+    "val_p_sd": 0.0
+   },
+   "validation_predictions_identical": true,
+   "groups_and_bias_trajectory_identical": true,
+   "attempted_executed_skipped": [
+    15,
+    15,
+    0
+   ],
+   "note": "Same inputs/initial weights as D08-B (pilot 60/20, K=64, seed 20261113); Stage 31 loader/train_group/evaluate are ports."
+  },
+  "reopen_completed": {
+   "status": "PASS",
+   "historical_tables_byte_identical": {
+    "resources_by_epoch.csv": true,
+    "epoch_metrics.csv": true,
+    "groups.csv": true,
+    "validation_predictions.csv": true
+   },
+   "sessions_before_after": [
+    1,
+    2
+   ],
+   "new_session_post_completion": "True"
+  },
+  "resume": {
+   "status": "PASS",
+   "checks": {
+    "model": true,
+    "optimizer": true,
+    "scaler": true,
+    "rng": true,
+    "progress_metrics_identical": true,
+    "progress_groups_identical": true,
+    "progress_predictions_identical": true,
+    "progress_selection_identical": true,
+    "progress_status_identical": true,
+    "progress_attempts_total_identical": true,
+    "progress_executed_total_identical": true,
+    "progress_skipped_total_identical": true,
+    "progress_epoch_identical": true,
+    "no_duplicate_metric_rows": true,
+    "no_duplicate_group_rows": true,
+    "partial_group_present": true,
+    "csv_identical": true,
+    "best_model_verified": true,
+    "resource_epochs_0_1_2": true,
+    "resource_logical_attempts_equal": true,
+    "resource_replay_counted_epoch1": true,
+    "resource_no_validation_or_diag_replay": true,
+    "resource_checkpoint_counts_equal": true,
+    "resource_no_negative_values": true,
+    "resource_train_time_present_every_epoch": true,
+    "resource_unclean_sessions_flagged": true
+   },
+   "timing_excluded_from_equality": {
+    "continuous": [
+     {
+      "train_wall_seconds": 0,
+      "validation_wall_seconds": 0,
+      "diagnostics_wall_seconds": 2.091697199997725,
+      "checkpoint_io_wall_seconds": 0.4191207999974722,
+      "aux_io_wall_seconds": 0
+     },
+     {
+      "train_wall_seconds": 1.4849211999971885,
+      "validation_wall_seconds": 1.7047197999927448,
+      "diagnostics_wall_seconds": 1.9337887000001501,
+      "checkpoint_io_wall_seconds": 2.1375599000020884,
+      "aux_io_wall_seconds": 0.5082499999989523
+     },
+     {
+      "train_wall_seconds": 1.2430562000081409,
+      "validation_wall_seconds": 1.6875422000011895,
+      "diagnostics_wall_seconds": 1.9018008999992162,
+      "checkpoint_io_wall_seconds": 2.936237699992489,
+      "aux_io_wall_seconds": 0.2550517000054242
+     }
+    ],
+    "interrupted": [
+     {
+      "train_wall_seconds": 0,
+      "validation_wall_seconds": 0,
+      "diagnostics_wall_seconds": 2.124930600009975,
+      "checkpoint_io_wall_seconds": 0.5627758000046015,
+      "aux_io_wall_seconds": 0
+     },
+     {
+      "train_wall_seconds": 3.114322599998559,
+      "validation_wall_seconds": 1.943170900005498,
+      "diagnostics_wall_seconds": 2.1206318000040483,
+      "checkpoint_io_wall_seconds": 3.2900561999849742,
+      "aux_io_wall_seconds": 1.3739618999970844
+     },
+     {
+      "train_wall_seconds": 1.3662527999986196,
+      "validation_wall_seconds": 1.7353089000098407,
+      "diagnostics_wall_seconds": 2.1645841999998083,
+      "checkpoint_io_wall_seconds": 3.0371625000116182,
+      "aux_io_wall_seconds": 0.2501241999998456
+     }
+    ]
+   },
+   "interrupted_resource_summary": {
+    "sessions": 4,
+    "unclean_sessions": [
+     "9a6a23bd89a6446cba272b5f3ea37244",
+     "4f200b618beb4e20b5167d769403b947",
+     "f27407acda5e44a6b746c5be053f99ab"
+    ],
+    "journal_unparsable_lines": 0,
+    "active_seconds_training_sessions": 102.46691009998904,
+    "active_seconds_post_completion_sessions": 0,
+    "active_seconds_is_lower_bound": true,
+    "total_train_wall_seconds": 4.4805753999971785,
+    "total_validation_wall_seconds": 3.6784798000153387,
+    "total_diagnostics_wall_seconds": 6.410146600013832,
+    "total_checkpoint_io_wall_seconds": 6.889994500001194,
+    "total_aux_io_wall_seconds": 1.62408609999693,
+    "total_setup_wall_seconds": 77.37689939998381,
+    "total_train_attempts_executed_work": 11,
+    "total_train_attempts_replayed": 3,
+    "total_checkpoints_measured": 8,
+    "total_checkpoints_unmeasured": 0,
+    "note": "Actual work from resource_journal.jsonl (includes replay after rollback). Wall/CPU time, not 'GPU time'. Sessions without session_end have an unknown tail: their active time is a lower bound. Unmeasured checkpoints were written but their write time was not journaled before a crash."
+   },
+   "attempts": [
+    8,
+    8,
+    0
+   ]
+  }
+ },
+ "compat_wall_seconds": 63.088698100007605,
+ "resume_wall_seconds": {
+  "continuous": 58.100039500001,
+  "interrupted_total": 105.98749319999479
+ },
+ "status": "PASS",
+ "script31_sha256": "53432b4f5af2a8266ae717563de27dda03c412e98f4f737335bd5e905f19160b"
+}

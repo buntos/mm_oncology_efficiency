@@ -1,0 +1,9 @@
+{
+  "README.md": "2db08582d3a2565746c7a0ebe72776ce58306a3d0c6b765a1368eb4c68efc74c",
+  "PUBLICATION_NOTES.md": "4528cc85680a5db9d3c0a16508c5e946f154aa4ca31278203395c04e0758393d",
+  "PUBLICATION_REVIEW.md": "e8420db1859bee2772556fb08f328ebe90f3a8a7b5c354068ed6c778745ae9a9",
+  ".gitignore": "d6cf6a1804a7171391644aa8570424a13f90e6cd01a783cda35dd85c66939cbc",
+  ".gitattributes": "f6281c818f77168f10baf9e2ca561e338c9bfe45464aefb12e725919b8ce7777",
+  "tools/verify_published_results.py": "e0d2b0f9f2aa2d619a3fd1d5205e2cbb18025c3107ccc0b8a03436bce9f2f65a",
+  "publication_checksums.json": "b223d34d298eca442832d228732220def5f34607c046278f792fff77a7f855f4"
+}

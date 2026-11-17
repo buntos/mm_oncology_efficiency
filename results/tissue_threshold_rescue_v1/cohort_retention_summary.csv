@@ -1,0 +1,7 @@
+﻿threshold,class_label,cohort_n,original_pass_certified,excluded_retested,rescued_observed,complete_experiment,retained_lower_bound,retained_final,excluded_final,retention_rate_final,evidence
+0.7,LUAD,474,455,19,3,True,458,458,16,0.9662447257383966,929 original PASS certified; excluded cases remeasured
+0.7,LUSC,476,474,2,2,True,476,476,0,1.0,929 original PASS certified; excluded cases remeasured
+0.75,LUAD,474,455,19,2,True,457,457,17,0.9641350210970464,929 original PASS certified; excluded cases remeasured
+0.75,LUSC,476,474,2,2,True,476,476,0,1.0,929 original PASS certified; excluded cases remeasured
+0.8,LUAD,474,455,19,0,True,455,455,19,0.959915611814346,929 original PASS certified; excluded cases remeasured
+0.8,LUSC,476,474,2,0,True,474,474,2,0.9957983193277311,929 original PASS certified; excluded cases remeasured

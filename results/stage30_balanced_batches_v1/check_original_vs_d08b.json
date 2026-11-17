@@ -1,0 +1,31 @@
+{
+  "epochs_compared": [
+    0,
+    1
+  ],
+  "groups_and_bias_trajectory_identical": true,
+  "max_abs_diff": 0.0,
+  "per_epoch_abs_diff": {
+    "0": {
+      "train_eval_auroc": 0.0,
+      "train_eval_ce": 0.0,
+      "train_eval_feat_abs_mean": 0.0
+    },
+    "1": {
+      "enc_update_mean": 0.0,
+      "head_update_mean": 0.0,
+      "train_eval_auroc": 0.0,
+      "train_eval_ce": 0.0,
+      "train_eval_feat_abs_mean": 0.0,
+      "val_auroc": 0.0,
+      "val_balanced_accuracy": 0.0,
+      "val_ce": 0.0,
+      "val_macro_f1": 0.0,
+      "val_p_mean": 0.0,
+      "val_p_sd": 0.0
+    }
+  },
+  "status": "PASS",
+  "utc": "2026-11-12T23:00:44.036930+00:00",
+  "validation_predictions_identical": true
+}

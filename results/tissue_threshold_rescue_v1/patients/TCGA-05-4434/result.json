@@ -1,0 +1,65 @@
+{
+  "run_signature": "7dc0c101d8ec8241ffcfde89355b16323908f4b1e5c0644a0f7d5c1d027ee85b",
+  "patient": {
+    "case_submitter_id": "TCGA-05-4434",
+    "class_label": "LUAD",
+    "role": "excluded",
+    "file_id": "3dfc4d6e-c337-494c-8e59-ffadd137dbeb",
+    "file_name": "TCGA-05-4434-01Z-00-DX1.f3f5c89c-306f-4876-98fa-f7bd231f2e10.svs",
+    "file_size_bytes": 389413762,
+    "md5sum": "324cf36f92a423a4c8b01be6a012e56f",
+    "slide_token": "DX1"
+  },
+  "states": {
+    "0.70": {
+      "threshold": 0.7,
+      "checked": 13723,
+      "accepted": [],
+      "rejected_low_tissue": 13568,
+      "rejected_background": 0,
+      "rejected_white": 155,
+      "rejected_artifact": 0,
+      "checked_to_64": null
+    },
+    "0.75": {
+      "threshold": 0.75,
+      "checked": 13723,
+      "accepted": [],
+      "rejected_low_tissue": 13696,
+      "rejected_background": 0,
+      "rejected_white": 27,
+      "rejected_artifact": 0,
+      "checked_to_64": null
+    },
+    "0.80": {
+      "threshold": 0.8,
+      "checked": 13723,
+      "accepted": [],
+      "rejected_low_tissue": 13723,
+      "rejected_background": 0,
+      "rejected_white": 0,
+      "rejected_artifact": 0,
+      "checked_to_64": null
+    }
+  },
+  "metadata": {
+    "width": 47872,
+    "height": 61184,
+    "objective": "20",
+    "mpp_x": "0.23250000000000001",
+    "mpp_y": "0.23250000000000001",
+    "raw_otsu_saturation": 0.146484375,
+    "saturation_threshold": 0.146484375,
+    "tissue_mask_fraction": 0.34833161685842434,
+    "deterministic_seed": "13065374746305563435",
+    "candidates_total": 13723,
+    "candidates_checked": 13723,
+    "scan_exhausted": true,
+    "scan_seconds": 209.81200000000536
+  },
+  "candidate_log_sha256": "8a8bc2c62f09dfd999b5647fc1b7a0eb29472e3787932674fcd8b31e96839b44",
+  "control_ok": true,
+  "control_detail": "Expected fewer than 64 patches at 0.80",
+  "finished_utc": "2026-11-11T13:25:45.261661+00:00",
+  "status": "COMPLETE"
+}

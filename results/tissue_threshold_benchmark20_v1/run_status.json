@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "state": "COMPLETE",
+  "expected_patients": 20,
+  "completed_patients": 20,
+  "measured_runs": 180,
+  "pending_patients": [],
+  "updated_utc": "2026-11-11T19:59:03.686168+00:00",
+  "note": "Final aggregate estimates require all 20 validated patients; raw partial rows are available."
+}

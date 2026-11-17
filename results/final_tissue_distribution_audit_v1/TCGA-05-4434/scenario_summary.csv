@@ -1,0 +1,3 @@
+case_submitter_id,white_threshold,background_threshold,eligible_before_tissue_filter,can_ever_reach_64,maximum_tissue_threshold_for_64
+TCGA-05-4434,0.1,0.1,0,False,
+TCGA-05-4434,0.15,0.1,63,False,

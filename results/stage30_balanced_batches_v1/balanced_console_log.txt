@@ -1,0 +1,14 @@
+Caching 60 train bags for eval-mode diagnostics (verified bytes, no augmentation)...
+START balanced: epoch-0 diagnostics committed
+balanced ep 1: trEvalCE=0.6521 trAUROC=0.698 trLD=+0.269 trDp=+0.065 | valCE=0.6867 AUROC=0.620 BA=0.60 F1=0.560 pmean=0.562 LUAD/LUSC=4/16 | |h|=0.566 skips=0
+balanced ep 2: trEvalCE=0.6150 trAUROC=0.794 trLD=+0.263 trDp=+0.102 | valCE=0.6755 AUROC=0.640 BA=0.65 F1=0.627 pmean=0.559 LUAD/LUSC=5/15 | |h|=0.594 skips=0
+balanced ep 3: trEvalCE=0.5581 trAUROC=0.907 trLD=+0.062 trDp=+0.158 | valCE=0.6640 AUROC=0.640 BA=0.70 F1=0.700 pmean=0.509 LUAD/LUSC=10/10 | |h|=0.694 skips=0
+balanced ep 4: trEvalCE=0.4645 trAUROC=0.926 trLD=-0.039 trDp=+0.290 | valCE=0.6718 AUROC=0.680 BA=0.70 F1=0.700 pmean=0.488 LUAD/LUSC=10/10 | |h|=0.931 skips=0
+balanced ep 5: trEvalCE=0.3874 trAUROC=0.968 trLD=-0.363 trDp=+0.403 | valCE=0.7234 AUROC=0.690 BA=0.70 F1=0.697 pmean=0.421 LUAD/LUSC=12/8 | |h|=1.128 skips=0
+balanced ep 6: trEvalCE=0.3198 trAUROC=0.968 trLD=+0.270 trDp=+0.501 | valCE=0.7695 AUROC=0.690 BA=0.65 F1=0.649 pmean=0.514 LUAD/LUSC=9/11 | |h|=1.222 skips=0
+balanced ep 7: trEvalCE=0.2626 trAUROC=0.991 trLD=+0.061 trDp=+0.579 | valCE=0.7732 AUROC=0.680 BA=0.65 F1=0.649 pmean=0.503 LUAD/LUSC=9/11 | |h|=1.286 skips=0
+balanced ep 8: trEvalCE=0.2699 trAUROC=0.992 trLD=+1.005 trDp=+0.609 | valCE=1.0408 AUROC=0.630 BA=0.60 F1=0.583 pmean=0.637 LUAD/LUSC=6/14 | |h|=1.477 skips=0
+balanced ep 9: trEvalCE=0.1919 trAUROC=1.000 trLD=-0.911 trDp=+0.701 | valCE=0.9607 AUROC=0.660 BA=0.60 F1=0.596 pmean=0.388 LUAD/LUSC=12/8 | |h|=1.539 skips=0
+balanced ep10: trEvalCE=0.1500 trAUROC=0.997 trLD=-0.319 trDp=+0.760 | valCE=1.0681 AUROC=0.690 BA=0.55 F1=0.549 pmean=0.479 LUAD/LUSC=9/11 | |h|=1.724 skips=0
+COMPLETE balanced: C:\research\mm_oncology_efficiency\results\stage30_balanced_batches_v1\runs\balanced_seed20261113
+EXIT=0

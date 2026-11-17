@@ -1,0 +1,36 @@
+--- a/scripts/29_train_patch_budget_baselines.py	2026-11-12 23:29:15.414042800 +0200
++++ b/scripts/29_train_patch_budget_baselines.py	2026-11-12 23:29:15.457203700 +0200
+@@ -48,12 +48,13 @@
+ from datetime import datetime, timezone
+ from pathlib import Path, PurePosixPath
+ 
+-VERSION = "1.0.0"
++VERSION = "1.1.0"
+ STAGE28_NAME = "wsi_patch_budget_v1"
+-STAGE29_NAME = "stage29_pilot_v1"
++STAGE29_NAME = "stage29_pilot_v2_enclr1e-5"
+ NAMESPACE = "production_final_v2_tissue080"
+ SEED = 20261113
+ EPOCHS = 5
++ENCODER_LR = .00001  # v1.1.0: was 1e-4; see results/stage29_learning_investigation_v1/REPORT.md
+ BUDGETS = (64, 32, 16)
+ ACCUMULATION = 4
+ CPU_THREADS = 4
+@@ -403,7 +404,7 @@
+ 
+ def optimizer_for(model):
+     head = [p for name, p in model.named_parameters() if not name.startswith("encoder.")]
+-    return torch.optim.AdamW([{"params": model.encoder.parameters(), "lr": .0001},
++    return torch.optim.AdamW([{"params": model.encoder.parameters(), "lr": ENCODER_LR},
+                              {"params": head, "lr": .001}], weight_decay=.0001, foreach=False)
+ 
+ 
+@@ -718,7 +719,7 @@
+             "batchnorm": "Frozen running stats; trainable affine parameters", "encoder_precision": "AMP FP16",
+             "attention_pool_classifier_precision": "FP32", "grad_scaler_initial_scale": 1024.,
+             "patient_batch_size": 1, "gradient_accumulation_patients": ACCUMULATION,
+-            "optimizer": "AdamW foreach=False", "encoder_lr": .0001, "head_lr": .001,
++            "optimizer": "AdamW foreach=False", "encoder_lr": ENCODER_LR, "head_lr": .001,
+             "weight_decay": .0001, "input_size": [256, 256], "input_normalization": "ImageNet mean/std; no crop",
+             "augmentation": "SHA256 keyed per patient/epoch/tile D4 rotations/reflection; independent of K",
+             "sampling": "SHA256 ranked 64 per four-epoch cycle; rotating quarter; B16 subset of B32 subset of B64",

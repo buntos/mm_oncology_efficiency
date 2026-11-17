@@ -1,0 +1,82 @@
+{
+  "TCGA-77-A5GB": {
+    "label": "LUSC",
+    "mean_white_frac": 0.051,
+    "mean_rgb": [
+      176.2,
+      113.8,
+      148.8
+    ],
+    "unique_coords": 16
+  },
+  "TCGA-55-1592": {
+    "label": "LUAD",
+    "mean_white_frac": 0.06,
+    "mean_rgb": [
+      149.0,
+      103.3,
+      125.0
+    ],
+    "unique_coords": 16
+  },
+  "TCGA-43-6647": {
+    "label": "LUSC",
+    "mean_white_frac": 0.023,
+    "mean_rgb": [
+      162.4,
+      98.6,
+      138.1
+    ],
+    "unique_coords": 16
+  },
+  "TCGA-55-8614": {
+    "label": "LUAD",
+    "mean_white_frac": 0.035,
+    "mean_rgb": [
+      187.9,
+      126.6,
+      166.6
+    ],
+    "unique_coords": 16
+  },
+  "TCGA-78-8660": {
+    "label": "LUAD",
+    "mean_white_frac": 0.071,
+    "mean_rgb": [
+      204.5,
+      130.0,
+      163.1
+    ],
+    "unique_coords": 16
+  },
+  "TCGA-78-8662": {
+    "label": "LUAD",
+    "mean_white_frac": 0.086,
+    "mean_rgb": [
+      183.6,
+      123.8,
+      159.0
+    ],
+    "unique_coords": 16
+  },
+  "TCGA-77-8154": {
+    "label": "LUSC",
+    "mean_white_frac": 0.035,
+    "mean_rgb": [
+      141.2,
+      111.8,
+      154.3
+    ],
+    "unique_coords": 16
+  },
+  "TCGA-63-A5MU": {
+    "label": "LUSC",
+    "mean_white_frac": 0.036,
+    "mean_rgb": [
+      139.5,
+      93.5,
+      142.3
+    ],
+    "unique_coords": 16
+  }
+}

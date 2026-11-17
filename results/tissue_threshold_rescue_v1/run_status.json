@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "controls_complete": 2,
+  "excluded_complete": {
+    "LUAD": 19,
+    "LUSC": 2
+  },
+  "updated_utc": "2026-11-11T13:29:29.240692+00:00",
+  "note": "Blank final counts mean incomplete; lower bounds are not final estimates."
+}

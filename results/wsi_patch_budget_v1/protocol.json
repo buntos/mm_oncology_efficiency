@@ -1,0 +1,191 @@
+{
+  "cohort": {
+    "test": {
+      "LUAD": 91,
+      "LUSC": 95
+    },
+    "train": {
+      "LUAD": 273,
+      "LUSC": 284
+    },
+    "validation": {
+      "LUAD": 91,
+      "LUSC": 95
+    }
+  },
+  "data_status": "FROZEN",
+  "excluded_patients": [
+    "TCGA-05-4249",
+    "TCGA-05-4250",
+    "TCGA-05-4384",
+    "TCGA-05-4395",
+    "TCGA-05-4396",
+    "TCGA-05-4397",
+    "TCGA-05-4403",
+    "TCGA-05-4405",
+    "TCGA-05-4410",
+    "TCGA-05-4415",
+    "TCGA-05-4425",
+    "TCGA-05-4426",
+    "TCGA-05-4430",
+    "TCGA-05-4432",
+    "TCGA-05-4434",
+    "TCGA-05-5420",
+    "TCGA-05-5423",
+    "TCGA-05-5425",
+    "TCGA-05-5715",
+    "TCGA-66-2759",
+    "TCGA-66-2792"
+  ],
+  "experiment": "WSI patch budget: fixed K before adaptive development",
+  "identity": {
+    "dataset_fingerprint_sha256": "78d439493d4d882f49afc1027eff5f6c92033fab52560989e447fb73ca5039c9",
+    "project_root": "C:\\research\\mm_oncology_efficiency",
+    "script_sha256": "9d818c3734ff760cba8eaa07f36c098c9ad388a86479c7e5d999e7a37224759f",
+    "source_sha256": {
+      "cohort": "0b62f5aa3b1dc09f9e96c411edb04b4456004a188eaa882072e4339e2d1611fa",
+      "config": "a8b34c4ab05e987a7ac07c62228d20c2fc75f7fe247d3241ba3890e8c6fe4484",
+      "qc": "a7043c92c3e99c99c326544f0c29bad3a3a66788de21e5b250d07dcd0bd4cdef",
+      "script11": "3af2ff8ce9d085a3723eb29542f10fdbc97aa449422fafd3815683d5e5857b60",
+      "script17": "89edd15f150e30f424e945290ed22ba23cebc75d679d2ad70db3c3669d805b86",
+      "script24": "c97ada4ce9b5f8a3f669b63035f90f072ab13233906ce42e87ebd005848cd664",
+      "tiles": "9aef5106e4907ad846039be0a4c0bdf84d824a82daeb856355703ddacc2665e0"
+    },
+    "split_sha256": "8dbca5ef9368b8e29d50f7183d93d9e893fefa2b01eaf58b2812c055b0a00a8b",
+    "stage28_version": "1.0.2",
+    "tiles_root": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_final_v2_tissue080"
+  },
+  "limitations": [
+    "No learning, performance, energy or novelty claim follows from this audit.",
+    "Exact-pixel duplicate checks do not detect near-duplicates or all biological relatedness.",
+    "A patient split does not constitute external or center-held-out validation.",
+    "Training configuration must be finalized separately after the GPU pilot."
+  ],
+  "namespace": "production_final_v2_tissue080",
+  "pass_patients": 929,
+  "patches_per_patient": 64,
+  "pilot": {
+    "ranking": "SHA256 ASCII pilot-v1|SPLIT|CLASS|20261112|PATIENT",
+    "test": 0,
+    "train": 60,
+    "validation": 20
+  },
+  "prepared_utc": "2026-11-12T14:16:11.738986+00:00",
+  "production_protocol": "V2_FINAL_HSV_64x256+TISSUE080+ARTIFACT_QC_V1",
+  "schema_version": 1,
+  "split_origin": {
+    "kind": "new_deterministic",
+    "non_split_role_tables": [
+      {
+        "columns": [
+          "subset"
+        ],
+        "observed_values_sample": [
+          "all_thumbnail_candidates",
+          "white_le_0.10",
+          "white_le_0.15"
+        ],
+        "path": "C:\\research\\mm_oncology_efficiency\\results\\final_tissue_distribution_audit_v1\\TCGA-05-4396\\final_tissue_quantiles.csv",
+        "reason": "Generic role column has no train/validation/test values; no explicit split path",
+        "rows_checked": 33
+      },
+      {
+        "columns": [
+          "subset"
+        ],
+        "observed_values_sample": [
+          "all_thumbnail_candidates",
+          "white_le_0.10",
+          "white_le_0.15"
+        ],
+        "path": "C:\\research\\mm_oncology_efficiency\\results\\final_tissue_distribution_audit_v1\\TCGA-05-4397\\final_tissue_quantiles.csv",
+        "reason": "Generic role column has no train/validation/test values; no explicit split path",
+        "rows_checked": 33
+      },
+      {
+        "columns": [
+          "subset"
+        ],
+        "observed_values_sample": [
+          "all_thumbnail_candidates",
+          "white_le_0.15"
+        ],
+        "path": "C:\\research\\mm_oncology_efficiency\\results\\final_tissue_distribution_audit_v1\\TCGA-05-4434\\final_tissue_quantiles.csv",
+        "reason": "Generic role column has no train/validation/test values; no explicit split path",
+        "rows_checked": 22
+      }
+    ],
+    "non_split_test_files": [
+      {
+        "path": "C:\\research\\mm_oncology_efficiency\\data\\manifests\\production_v2_artifact_qc_candidate_v1\\batches\\artifact_qc3_replacement_test_patients.csv",
+        "reason": "Incidental train/test text; no explicit split path or partition schema"
+      },
+      {
+        "path": "C:\\research\\mm_oncology_efficiency\\data\\manifests\\production_v2_artifact_qc_candidate_v1\\batches\\artifact_qc3_replacement_test_patients.json",
+        "reason": "Incidental train/test text; no explicit split path or partition schema"
+      },
+      {
+        "path": "C:\\research\\mm_oncology_efficiency\\data\\manifests\\production_v2_artifact_qc_candidate_v1\\batches\\artifact_qc3_replacement_test_tile_manifest.csv",
+        "reason": "Incidental train/test text; no explicit split path or partition schema"
+      },
+      {
+        "path": "C:\\research\\mm_oncology_efficiency\\data\\metadata\\production_v2_artifact_qc_candidate_v1\\artifact_rejections\\artifact_qc3_replacement_test\\TCGA-78-8660_51bdb04a-b268-48d9-9406-956b5553e77d.csv",
+        "reason": "Incidental train/test text; no explicit split path or partition schema"
+      },
+      {
+        "path": "C:\\research\\mm_oncology_efficiency\\data\\metadata\\production_v2_artifact_qc_candidate_v1\\artifact_rejections\\artifact_qc3_replacement_test\\TCGA-86-8056_c7aad125-c092-4451-8480-993a3d982879.csv",
+        "reason": "Incidental train/test text; no explicit split path or partition schema"
+      },
+      {
+        "path": "C:\\research\\mm_oncology_efficiency\\data\\metadata\\production_v2_artifact_qc_candidate_v1\\artifact_rejections\\artifact_qc3_replacement_test\\TCGA-86-8278_c6e36f24-46f3-4e20-8154-970e749aa0ca.csv",
+        "reason": "Incidental train/test text; no explicit split path or partition schema"
+      },
+      {
+        "path": "C:\\research\\mm_oncology_efficiency\\data\\metadata\\production_v2_artifact_qc_candidate_v1\\batches\\artifact_qc3_replacement_test_patient_qc.csv",
+        "reason": "Incidental train/test text; no explicit split path or partition schema"
+      }
+    ],
+    "rule": "SHA256 ASCII split-v1|CLASS|20261112|PATIENT; ascending; first rounded 20% validation, next test, rest train",
+    "seed": 20261112,
+    "split_candidates": [],
+    "training_scripts": []
+  },
+  "split_seed": 20261112,
+  "tile_size": [
+    256,
+    256
+  ],
+  "tissue_threshold": 0.8,
+  "training_draft": {
+    "architecture": "ResNet18 + gated-attention MIL (hidden=128) + 2 logits",
+    "batchnorm": "frozen running statistics; affine parameters trainable",
+    "encoder_lr": 0.0001,
+    "encoder_trainable": true,
+    "epochs_provisional": 30,
+    "gpu_feasibility_verified": false,
+    "gradient_accumulation_patients": 4,
+    "mil_lr": 0.001,
+    "modalities": [
+      "WSI"
+    ],
+    "optimizer": "AdamW",
+    "patient_batch_size": 1,
+    "precision": "AMP FP16",
+    "primary_comparison": "32 versus 64",
+    "test_policy": "No test scoring during development; freeze methods and checkpoints before final test",
+    "training_patch_budgets": [
+      16,
+      32,
+      64
+    ],
+    "training_seeds": [
+      20261113,
+      20261114,
+      20261115
+    ],
+    "validation_and_test_patch_budget": 64,
+    "weight_decay": 0.0001,
+    "weights": "ResNet18_Weights.IMAGENET1K_V1"
+  },
+  "training_status": "DRAFT_PENDING_GPU_SMOKE"
+}

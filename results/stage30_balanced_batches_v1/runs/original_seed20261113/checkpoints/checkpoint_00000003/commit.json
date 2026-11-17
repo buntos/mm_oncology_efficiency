@@ -1,0 +1,14 @@
+{
+  "best_sequence": null,
+  "epoch": 0,
+  "identity": {
+    "epochs": 10,
+    "mode": "original",
+    "protocol_sha256": "bd1ea4d37661460e819799d59d80d4e4de502a5018b5fb23aa27d604ae95ad1f",
+    "seed": 20261113
+  },
+  "position": null,
+  "sequence": 3,
+  "sha256": "7bb301c38bd5c70bb12d450dfa042b9a4e7741e624ef0d36793a38b18d7f069a",
+  "utc": "2026-11-12T23:00:24.640590+00:00"
+}

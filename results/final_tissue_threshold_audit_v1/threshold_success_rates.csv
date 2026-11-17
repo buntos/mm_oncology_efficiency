@@ -1,0 +1,11 @@
+group,threshold,cases,cases_reaching_64,success_fraction
+control,0.7,5,5,1.0
+control,0.75,5,5,1.0
+control,0.8,5,5,1.0
+control,0.85,5,5,1.0
+control,0.9,5,5,1.0
+failure,0.7,5,2,0.4
+failure,0.75,5,2,0.4
+failure,0.8,5,2,0.4
+failure,0.85,5,1,0.2
+failure,0.9,5,0,0.0

@@ -1,0 +1,262 @@
+{
+  "version": "1.0.0",
+  "audit_script_sha256": "5cde06c49378aa6140489c7d8d169ec9629d1e13dcec24ebc2fd4a06dfb65bae",
+  "input_sha256": {
+    "config": "a8b34c4ab05e987a7ac07c62228d20c2fc75f7fe247d3241ba3890e8c6fe4484",
+    "cohort": "0b62f5aa3b1dc09f9e96c411edb04b4456004a188eaa882072e4339e2d1611fa",
+    "candidates": "70206348d1c6e17d5ad260addc648aeadd3f74731c4b0676f7918e569795b344",
+    "tiles": "9aef5106e4907ad846039be0a4c0bdf84d824a82daeb856355703ddacc2665e0",
+    "qc": "a7043c92c3e99c99c326544f0c29bad3a3a66788de21e5b250d07dcd0bd4cdef",
+    "script11": "3af2ff8ce9d085a3723eb29542f10fdbc97aa449422fafd3815683d5e5857b60",
+    "script17": "89edd15f150e30f424e945290ed22ba23cebc75d679d2ad70db3c3669d805b86",
+    "script24": "c97ada4ce9b5f8a3f669b63035f90f072ab13233906ce42e87ebd005848cd664"
+  },
+  "thresholds": [
+    0.7,
+    0.75,
+    0.8
+  ],
+  "plan": [
+    {
+      "case_submitter_id": "TCGA-05-5429",
+      "class_label": "LUAD",
+      "role": "positive_control",
+      "file_id": "06f120a8-46a3-4e9b-b15a-c33493ba4164",
+      "file_name": "TCGA-05-5429-01Z-00-DX1.20729065-FADA-4E43-98D7-AFA5FB4A0447.svs",
+      "file_size_bytes": 8736228,
+      "md5sum": "908b55ed86e84f1e23fbfc6779850269",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-63-A5MH",
+      "class_label": "LUSC",
+      "role": "positive_control",
+      "file_id": "10e4ce3b-cee1-44a5-9258-5f171a94264d",
+      "file_name": "TCGA-63-A5MH-01Z-00-DX1.596077FF-9CE1-4EA7-9BB6-222C69872CA4.svs",
+      "file_size_bytes": 24939332,
+      "md5sum": "9bdbc84bb0aa3b79b54f0d025e9ac5c1",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4249",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "b6fea18e-9615-49c1-a10b-1d466639c2bd",
+      "file_name": "TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db.svs",
+      "file_size_bytes": 375480752,
+      "md5sum": "c3e985ea6affde1ba34fbe4b84eae224",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4250",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "586edaf8-4366-4ba8-a8f1-a79ed9c1f448",
+      "file_name": "TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba.svs",
+      "file_size_bytes": 312875814,
+      "md5sum": "f1ee603c436a917bdb6856a72bd66150",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4384",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "97abb7f1-6535-43b8-a003-467f5bb0cae9",
+      "file_name": "TCGA-05-4384-01Z-00-DX1.CA68BF29-BBE3-4C8E-B48B-554431A9EE13.svs",
+      "file_size_bytes": 10143374,
+      "md5sum": "91a07f0e9479ae2366d536b381d3fb20",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4395",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "2aa283f3-732c-4879-8d37-1fec3ccf5bdc",
+      "file_name": "TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9.svs",
+      "file_size_bytes": 191271942,
+      "md5sum": "39cd506e067616edc15324ff7da66377",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4396",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "070defff-1f5d-49e7-85b9-de4508e8a0c9",
+      "file_name": "TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB.svs",
+      "file_size_bytes": 465271414,
+      "md5sum": "0bdfc71ab94998847b83a0f18d8b458e",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4397",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "1f178d38-98dc-4ed8-8dc7-3a6e10320a45",
+      "file_name": "TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d.svs",
+      "file_size_bytes": 492001142,
+      "md5sum": "0c11a65eddb585d9bd93463de078bdbb",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4403",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "d14d5041-6ea8-431a-82e7-ba3f98e88711",
+      "file_name": "TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295.svs",
+      "file_size_bytes": 438184548,
+      "md5sum": "8ee91b976f5fc770c740054cbaa36c3d",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4405",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "6b0e0c19-b841-4bd8-aa4e-5e947bc8cd32",
+      "file_name": "TCGA-05-4405-01Z-00-DX1.D57EC2B2-3A59-4954-86A7-61782938BCC5.svs",
+      "file_size_bytes": 250047128,
+      "md5sum": "2fe938d816bc5d8cbbad7cf463ae56f1",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4410",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "c7e8578a-1c57-4f26-bcd7-915e1e8d7e9e",
+      "file_name": "TCGA-05-4410-01Z-00-DX1.E5B66334-4949-4F45-9200-296B1A2F1AD5.svs",
+      "file_size_bytes": 14228686,
+      "md5sum": "d6de23a650e6c7782ae4c4280135e66d",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4415",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "a79c96ab-5f63-41ba-95e8-18d4bfbb998a",
+      "file_name": "TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E.svs",
+      "file_size_bytes": 433098028,
+      "md5sum": "9378fe2dfbfd9f13185fb4f3bbf46273",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4425",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "5965ab59-8a43-4a84-a07a-fd0b0c3fab7a",
+      "file_name": "TCGA-05-4425-01Z-00-DX1.82B093EE-49BC-4FD9-91AC-4CC89944309D.svs",
+      "file_size_bytes": 6382442,
+      "md5sum": "7a54cb0d7765ca46a94314ac009088ca",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4426",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "755851ba-ca30-469a-8475-5d0546764446",
+      "file_name": "TCGA-05-4426-01Z-00-DX1.4c9da782-f4aa-4c4f-b3aa-fae2259f236f.svs",
+      "file_size_bytes": 394911248,
+      "md5sum": "28deaed878608ed218617d89ca3111e6",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4430",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "9d02e693-4bed-4c61-964a-2743fa20ec6b",
+      "file_name": "TCGA-05-4430-01Z-00-DX1.95659bbb-3091-4370-bc1d-6c6c1baa7b3d.svs",
+      "file_size_bytes": 493314194,
+      "md5sum": "c71145adb802e90aafa68c52c7d079b2",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4432",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "80e627a6-79af-4232-8cbe-d89d8d2f8511",
+      "file_name": "TCGA-05-4432-01Z-00-DX1.90d00d62-402b-404a-85e2-0edf869193ab.svs",
+      "file_size_bytes": 419153180,
+      "md5sum": "3053602d3ced4d63d180e3c0c7635519",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-4434",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "3dfc4d6e-c337-494c-8e59-ffadd137dbeb",
+      "file_name": "TCGA-05-4434-01Z-00-DX1.f3f5c89c-306f-4876-98fa-f7bd231f2e10.svs",
+      "file_size_bytes": 389413762,
+      "md5sum": "324cf36f92a423a4c8b01be6a012e56f",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-5420",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "62ed77c3-06d8-4f62-a5cc-051a1307b444",
+      "file_name": "TCGA-05-5420-01Z-00-DX1.8C253A99-44FD-48B6-AF31-D808CCB7DB1E.svs",
+      "file_size_bytes": 12090692,
+      "md5sum": "40b62e30fd0decf9719941d83f892305",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-5423",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "4fe08445-76f1-4d5b-b1ac-dc46bd17991d",
+      "file_name": "TCGA-05-5423-01Z-00-DX1.CCCF5FDB-ACAD-4D9D-80DF-556F0D6284AF.svs",
+      "file_size_bytes": 11672134,
+      "md5sum": "0107a845cc20a19cb78931c3ee9d2514",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-5425",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "3e98b0f7-17ea-41a1-a4f8-5064ca345eb5",
+      "file_name": "TCGA-05-5425-01Z-00-DX1.85865B2F-4888-43DD-A501-458BEFCF832B.svs",
+      "file_size_bytes": 9169362,
+      "md5sum": "29a91d5df111422b347310f2aa5ed823",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-05-5715",
+      "class_label": "LUAD",
+      "role": "excluded",
+      "file_id": "1509e64e-18dc-43c6-8c0e-99b4cd1c29b8",
+      "file_name": "TCGA-05-5715-01Z-00-DX1.D3F0A1FA-2507-45FF-823F-F9981E62BB4C.svs",
+      "file_size_bytes": 7961930,
+      "md5sum": "4fa517fd701bafcdc011463ece2233d7",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-66-2759",
+      "class_label": "LUSC",
+      "role": "excluded",
+      "file_id": "7e285d97-368e-4793-b5c5-fed8ffadc809",
+      "file_name": "TCGA-66-2759-01Z-00-DX1.10135ce3-22d5-4802-907d-057fe54f5554.svs",
+      "file_size_bytes": 346214133,
+      "md5sum": "f1d03196f130ba9ae8efc27920d961dd",
+      "slide_token": "DX1"
+    },
+    {
+      "case_submitter_id": "TCGA-66-2792",
+      "class_label": "LUSC",
+      "role": "excluded",
+      "file_id": "1b9a7d39-6001-47c4-9c09-33587f698e2f",
+      "file_name": "TCGA-66-2792-01Z-00-DX1.988d556c-f65e-4cae-892d-4dfe046ea626.svs",
+      "file_size_bytes": 147449673,
+      "md5sum": "d1172f28fa403a7b86d1274633ec3ba3",
+      "slide_token": "DX1"
+    }
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "openslide_native": "4.0.1",
+    "numpy": "2.5.2",
+    "Pillow": "12.3.0",
+    "scikit-image": "0.26.0",
+    "openslide-python": "1.4.6"
+  },
+  "retention_inference": "Original PASS at 0.80 implies feasible 64 patches at 0.70/0.75",
+  "selection": "First 64 accepted in unchanged deterministic order; one DX1 per audit patient"
+}

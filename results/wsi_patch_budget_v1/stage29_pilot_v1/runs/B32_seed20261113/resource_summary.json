@@ -1,0 +1,21 @@
+{
+  "best_validation": {
+    "auroc": 0.58,
+    "epoch": 3,
+    "loss": 0.6942079454660416
+  },
+  "budget": 32,
+  "completed_epochs": 5,
+  "extrapolation_note": "Rough train+validation scaling only; excludes startup/checkpoint overhead and population-dependent I/O. Not a runtime guarantee.",
+  "main_study_started": false,
+  "note": "Power-off pauses excluded. Unclean tail after last durable heartbeat is unknown, not zero.",
+  "recorded_active_seconds_including_replay": 96.27441130000079,
+  "recorded_cpu_seconds": 342.5,
+  "rough_main_30_epoch_core_seconds": 4530.39274922032,
+  "seed": 20261113,
+  "sessions": 1,
+  "status": "COMPLETE",
+  "test_scored": false,
+  "time_is_lower_bound": false,
+  "unclean_sessions": []
+}

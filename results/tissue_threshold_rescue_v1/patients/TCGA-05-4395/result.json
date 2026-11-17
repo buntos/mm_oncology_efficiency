@@ -1,0 +1,119 @@
+{
+  "run_signature": "7dc0c101d8ec8241ffcfde89355b16323908f4b1e5c0644a0f7d5c1d027ee85b",
+  "patient": {
+    "case_submitter_id": "TCGA-05-4395",
+    "class_label": "LUAD",
+    "role": "excluded",
+    "file_id": "2aa283f3-732c-4879-8d37-1fec3ccf5bdc",
+    "file_name": "TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9.svs",
+    "file_size_bytes": 191271942,
+    "md5sum": "39cd506e067616edc15324ff7da66377",
+    "slide_token": "DX1"
+  },
+  "states": {
+    "0.70": {
+      "threshold": 0.7,
+      "checked": 2978,
+      "accepted": [
+        {
+          "candidate_checked_index": 2140,
+          "x_level0": 32512,
+          "y_level0": 6656,
+          "approx_tissue_fraction": 0.9773156899810964,
+          "final_tissue_fraction": 0.8596954345703125,
+          "background_fraction": 0.00830078125,
+          "white_fraction": 0.09521484375,
+          "artifact_evaluated": true,
+          "artifact_reject": false,
+          "artifact_reasons": "",
+          "near_black_fraction": 0.0177459716796875,
+          "gradient_mean": 4.860552787780762,
+          "red_excess": 18.972702026367188,
+          "cyan_excess": -18.972702026367188,
+          "saturation_mean": 0.4081432819366455
+        }
+      ],
+      "rejected_low_tissue": 2961,
+      "rejected_background": 0,
+      "rejected_white": 16,
+      "rejected_artifact": 0,
+      "checked_to_64": null
+    },
+    "0.75": {
+      "threshold": 0.75,
+      "checked": 2978,
+      "accepted": [
+        {
+          "candidate_checked_index": 2140,
+          "x_level0": 32512,
+          "y_level0": 6656,
+          "approx_tissue_fraction": 0.9773156899810964,
+          "final_tissue_fraction": 0.8596954345703125,
+          "background_fraction": 0.00830078125,
+          "white_fraction": 0.09521484375,
+          "artifact_evaluated": true,
+          "artifact_reject": false,
+          "artifact_reasons": "",
+          "near_black_fraction": 0.0177459716796875,
+          "gradient_mean": 4.860552787780762,
+          "red_excess": 18.972702026367188,
+          "cyan_excess": -18.972702026367188,
+          "saturation_mean": 0.4081432819366455
+        }
+      ],
+      "rejected_low_tissue": 2975,
+      "rejected_background": 0,
+      "rejected_white": 2,
+      "rejected_artifact": 0,
+      "checked_to_64": null
+    },
+    "0.80": {
+      "threshold": 0.8,
+      "checked": 2978,
+      "accepted": [
+        {
+          "candidate_checked_index": 2140,
+          "x_level0": 32512,
+          "y_level0": 6656,
+          "approx_tissue_fraction": 0.9773156899810964,
+          "final_tissue_fraction": 0.8596954345703125,
+          "background_fraction": 0.00830078125,
+          "white_fraction": 0.09521484375,
+          "artifact_evaluated": true,
+          "artifact_reject": false,
+          "artifact_reasons": "",
+          "near_black_fraction": 0.0177459716796875,
+          "gradient_mean": 4.860552787780762,
+          "red_excess": 18.972702026367188,
+          "cyan_excess": -18.972702026367188,
+          "saturation_mean": 0.4081432819366455
+        }
+      ],
+      "rejected_low_tissue": 2977,
+      "rejected_background": 0,
+      "rejected_white": 0,
+      "rejected_artifact": 0,
+      "checked_to_64": null
+    }
+  },
+  "metadata": {
+    "width": 48384,
+    "height": 26880,
+    "objective": "20",
+    "mpp_x": "0.23250000000000001",
+    "mpp_y": "0.23250000000000001",
+    "raw_otsu_saturation": 0.138671875,
+    "saturation_threshold": 0.138671875,
+    "tissue_mask_fraction": 0.23847958744096,
+    "deterministic_seed": "14283046774307239825",
+    "candidates_total": 2978,
+    "candidates_checked": 2978,
+    "scan_exhausted": true,
+    "scan_seconds": 49.01600000000326
+  },
+  "candidate_log_sha256": "e13ba777fab15a1f8890ead2fd3977c6f619e5a0addddec1bb3856ab224f4bca",
+  "control_ok": true,
+  "control_detail": "Expected fewer than 64 patches at 0.80",
+  "finished_utc": "2026-11-11T12:45:58.305983+00:00",
+  "status": "COMPLETE"
+}

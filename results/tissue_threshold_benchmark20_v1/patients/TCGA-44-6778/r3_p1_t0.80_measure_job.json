@@ -1,0 +1,37 @@
+{
+  "repeat": 3,
+  "position": 1,
+  "threshold": "0.80",
+  "phase": "measure",
+  "patient": {
+    "execution_order": 5,
+    "case_submitter_id": "TCGA-44-6778",
+    "class_label": "LUAD",
+    "class_sample_rank": 3,
+    "sample_key_sha256": "0267c72fef2d5db79c77c5e263f4ab30c75e13e2db836ad1f46b1fb078aaa97f",
+    "tss_code": "44",
+    "baseline_status": "PASS",
+    "prior_stage1_role": "not_in_stage1",
+    "file_id": "85aecca5-2e8e-4e47-9112-0ba8c1f38521",
+    "file_name": "TCGA-44-6778-01Z-00-DX1.5e932267-cc68-4a8e-a660-fe2cc0c59ff4.svs",
+    "file_size_bytes": 284312465,
+    "md5sum": "398bcbc395efb8214cd3b28b5411b506",
+    "slide_token": "DX1",
+    "available_diagnostic_slides": 1
+  },
+  "wsi": "C:\\research\\mm_oncology_efficiency\\results\\tissue_threshold_benchmark20_v1\\downloads\\85aecca5-2e8e-4e47-9112-0ba8c1f38521\\TCGA-44-6778-01Z-00-DX1.5e932267-cc68-4a8e-a660-fe2cc0c59ff4.svs",
+  "run_signature": "2319e234d98cbff5c2f91347cbb215ee7d4d7472a8504e34f9715363ffe19917",
+  "script_sha256": "9e370da107077505b1e2e5804fea7f568a37e0637a9d31db0521a04723155df2",
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "openslide_native": "4.0.1",
+    "numpy": "2.5.2",
+    "Pillow": "12.3.0",
+    "scikit-image": "0.26.0",
+    "openslide-python": "1.4.6"
+  },
+  "reference_path": "C:\\research\\mm_oncology_efficiency\\results\\tissue_threshold_paired60_v1\\patients\\TCGA-44-6778\\result.json",
+  "reference_sha256": "d55f58f322ef46ee4bf344e8adf4e0569cd0d9473d7a0caf85c3c8da9690573e",
+  "result_path": "C:\\research\\mm_oncology_efficiency\\results\\tissue_threshold_benchmark20_v1\\patients\\TCGA-44-6778\\r3_p1_t0.80_measure.json"
+}

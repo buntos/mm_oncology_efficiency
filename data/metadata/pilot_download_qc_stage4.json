@@ -1,0 +1,9 @@
+{
+  "expected_files": 20,
+  "files_integrity_pass": 20,
+  "expected_wsi": 10,
+  "wsi_openslide_pass": 10,
+  "expected_rna": 10,
+  "rna_read_pass": 10,
+  "overall_pass": true
+}

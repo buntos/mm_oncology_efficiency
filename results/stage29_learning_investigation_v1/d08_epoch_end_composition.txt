@@ -1,0 +1,11 @@
+Association only (one seed, shared schedule): end-of-epoch train-eval mean logit diff (LUSC-LUAD) vs label composition of the epoch's final groups
+A: last 1 group(s): Pearson r=+0.58  (n=20 epochs)
+A: last 2 group(s): Pearson r=+0.35  (n=20 epochs)
+A: last 3 group(s): Pearson r=+0.27  (n=20 epochs)
+  per-epoch (LUSC-LUAD in last 2 groups): [0, 0, -2, 0, 0, 0, -2, 0, -2, 2, -2, 2, 2, 0, -2, 0, -4, 0, -6, 0]
+  A train-eval mean LD: [np.float64(0.97), np.float64(-0.57), np.float64(0.24), np.float64(-0.04), np.float64(-0.78), np.float64(0.03), np.float64(0.41), np.float64(0.23), np.float64(1.59), np.float64(0.53), np.float64(-0.28), np.float64(-0.85), np.float64(1.34), np.float64(0.58), np.float64(-1.2), np.float64(1.83), np.float64(-0.99), np.float64(0.79), np.float64(-0.77), np.float64(0.6)]
+B: last 1 group(s): Pearson r=+0.49  (n=20 epochs)
+B: last 2 group(s): Pearson r=+0.38  (n=20 epochs)
+B: last 3 group(s): Pearson r=+0.44  (n=20 epochs)
+  B train-eval mean LD: [np.float64(0.25), np.float64(-0.13), np.float64(0.0), np.float64(-0.02), np.float64(-0.58), np.float64(0.07), np.float64(-0.1), np.float64(-1.1), np.float64(0.56), np.float64(0.12), np.float64(-1.66), np.float64(-0.84), np.float64(0.68), np.float64(-0.65), np.float64(-1.16), np.float64(1.04), np.float64(-0.15), np.float64(0.94), np.float64(-1.44), np.float64(-0.32)]
+A vs B end-of-epoch train-eval mean LD: Pearson r=+0.72; sign agreement 16/20

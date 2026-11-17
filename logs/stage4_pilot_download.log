@@ -1,0 +1,2 @@
+2026-08-19 20:08:44,004: ERROR: a8170198-99b3-4269-883a-5ba4dab6bd53: Unable to connect to API: (('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))). Is this url correct: 'https://api.gdc.cancer.gov/data/a8170198-99b3-4269-883a-5ba4dab6bd53'? Is there a connection to the API? Is the server running?
+2026-08-19 20:10:37,793: INFO: Successfully downloaded: 20

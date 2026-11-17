@@ -1,0 +1,32 @@
+{
+  "cross_patient_duplicates": 0,
+  "dataset_fingerprint_sha256": "78d439493d4d882f49afc1027eff5f6c92033fab52560989e447fb73ca5039c9",
+  "decoded_pngs": 59456,
+  "elapsed_seconds": 199.53099999999904,
+  "exact_pixel_duplicates_within_patient": 0,
+  "excluded_patients": 21,
+  "image_validation": "PNG verify + decode; RGB; 256x256; one frame",
+  "original_patients": 950,
+  "patients": 929,
+  "qc_source_copies": [
+    "C:\\research\\mm_oncology_efficiency\\data\\metadata\\production_final_v2_tissue080\\batches\\final_full_cohort_v1_patient_qc.csv"
+  ],
+  "split_counts": {
+    "test": {
+      "LUAD": 91,
+      "LUSC": 95
+    },
+    "train": {
+      "LUAD": 273,
+      "LUSC": 284
+    },
+    "validation": {
+      "LUAD": 91,
+      "LUSC": 95
+    }
+  },
+  "status": "PASS",
+  "total_png_bytes": 7235023978,
+  "training_not_started": true,
+  "utc": "2026-11-12T14:16:11.738986+00:00"
+}

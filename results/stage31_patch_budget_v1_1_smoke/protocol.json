@@ -1,0 +1,158 @@
+{
+  "dataset_fingerprint": "78d439493d4d882f49afc1027eff5f6c92033fab52560989e447fb73ca5039c9",
+  "dependent_scripts_sha256": {
+    "stage28": "9d818c3734ff760cba8eaa07f36c098c9ad388a86479c7e5d999e7a37224759f",
+    "stage29": "a8a7409a32c748c3529544138b5e20b8f6294b233a8fb22c20585dcd522ab09d",
+    "stage30": "20c8a3af5c3bb9f1c25dd3a322ece6fb43fb8f902a05644c211262b45b2d5ca7"
+  },
+  "environment": {
+    "cpu_threads": 4,
+    "cublas_workspace_config": ":4096:8",
+    "cuda_runtime": "12.6",
+    "cudnn": 91002,
+    "deterministic_algorithms": true,
+    "gpu": "NVIDIA GeForce RTX 2070",
+    "gpu_memory_bytes": 8589475840,
+    "interop_threads": 1,
+    "platform": "Windows-10-10.0.19045-SP0",
+    "python": "3.12.3",
+    "versions": {
+      "Pillow": "12.3.0",
+      "numpy": "2.5.2",
+      "psutil": "7.2.2",
+      "torch": "2.12.1+cu126",
+      "torchvision": "0.27.1+cu126"
+    },
+    "workers": 0
+  },
+  "kind": "SMOKE_TEST_ONLY",
+  "notes": {
+    "not_a_quality_fix": "Configuration chosen from 60-patient diagnostics; quality on the full train set is to be measured.",
+    "test": "186 test patients remain closed: metadata only (counts/labels/split); no PNG opened, no features, no predictions; no test CLI.",
+    "validation_reuse": "20 pilot-validation patients (Stage 28 pilot_manifest) were used during Stage 29/30 tuning; validation is for model selection, NOT an independent final estimate."
+  },
+  "pilot_validation_patients": [
+    "TCGA-05-4422",
+    "TCGA-44-2657",
+    "TCGA-49-4487",
+    "TCGA-49-4506",
+    "TCGA-55-8204",
+    "TCGA-60-2709",
+    "TCGA-60-2724",
+    "TCGA-64-1681",
+    "TCGA-69-7760",
+    "TCGA-69-A59K",
+    "TCGA-77-7142",
+    "TCGA-77-8156",
+    "TCGA-77-A5G6",
+    "TCGA-85-8072",
+    "TCGA-93-A4JO",
+    "TCGA-94-7557",
+    "TCGA-97-7547",
+    "TCGA-98-7454",
+    "TCGA-98-A53A",
+    "TCGA-98-A53J"
+  ],
+  "run_matrix": {
+    "budgets": [
+      16,
+      32,
+      64
+    ],
+    "first_planned": {
+      "budget": 64,
+      "seed": 20261113
+    },
+    "launch": "each run explicitly by --budget/--seed; never automatically",
+    "seeds": [
+      20261113,
+      20261114,
+      20261115
+    ]
+  },
+  "schema_version": 1,
+  "script31_sha256": "53432b4f5af2a8266ae717563de27dda03c412e98f4f737335bd5e905f19160b",
+  "settings": {
+    "accumulation_patients": 4,
+    "amp_skip_policy": "after 3 consecutive skipped steps: save state, stop with status AMP_SKIPS, no auto-resume",
+    "architecture": "torchvision ResNet18 (fc=Identity) + gated attention (V/U 512->128, w 128->1) + Linear(512,2)",
+    "augmentation": "Stage 29 augmentation_code(pid, epoch, tile, seed): D4, identical across K for shared patches",
+    "batchnorm": "frozen running statistics, trainable affine",
+    "betas_eps_amsgrad": "torch defaults (as D08-B)",
+    "checkpoint_every_attempts": 5,
+    "checkpoint_phase_boundaries": [
+      "train_done",
+      "validation_done",
+      "epoch_committed"
+    ],
+    "cpu_threads": 4,
+    "deterministic": "Stage 29 initialize_torch",
+    "diagnostics_frequency": "once per epoch (and epoch 0 for the train-eval subset); identical for all K",
+    "encoder_lr": 1e-05,
+    "encoder_trainable": true,
+    "grad_clipping": null,
+    "grad_scaler": "torch.amp.GradScaler('cuda', init_scale=1024) (Stage 29 scaler_for)",
+    "head_init": "original (Stage 29 build_model with the run seed); not zero",
+    "head_lr": 0.0001,
+    "interop_threads": 1,
+    "max_consecutive_amp_skips": 3,
+    "normalisation": "ImageNet mean/std after /255; no crop",
+    "optimizer": "AdamW foreach=False (Stage 29 optimizer_for)",
+    "partial_last_group": "kept; loss divided by actual number of patients in the group; no drop, no duplication",
+    "patch_selection": "Stage 29 patch_indices(pid, epoch, K, seed): nested K16 c K32 c K64",
+    "patient_order": "Stage 29 patient_order(ids, epoch, seed) ('original'); identical across K for a seed",
+    "patients_per_forward": 1,
+    "precision": "AMP FP16 encoder; FP32 attention/pool/classifier",
+    "resource_accounting": "v1.0.1: append-only fsync'd resource_journal.jsonl (one event per measured block: setup, each train attempt, validation, diagnostics, each checkpoint write, auxiliary I/O); tables rebuilt from the journal; replayed work counted as actual cost; unknown crash tails reported as lower bounds",
+    "sampler": "none (all patients once per epoch)",
+    "scheduler": null,
+    "step_update_norms": "not computed in main runs (no per-step parameter copies); epoch-level weight change only",
+    "threshold": 0.5,
+    "train_eval_subset": "10 LUAD + 10 LUSC train patients, first by SHA256('stage31-train-eval-v1|'+ID) within class",
+    "validation": "all 64 patches, no augmentation",
+    "weight_decay": 0.0001,
+    "weights": "official ImageNet ResNet18 resnet18-f37072fd.pth prepared and verified by Stage 29",
+    "workers": 0
+  },
+  "settings_sha256": "47caa6913f85842dd5954d5136ef6bbddacbaaf72415edf16580724f2fc02443",
+  "smoke_subsets": {
+    "compat_pilot80": "pilot train 60 / pilot validation 20 (Stage 28 pilot_manifest), train-eval 10+10 from these 60",
+    "resume_19": "pilot train first 7 LUAD + 6 LUSC by pilot_order_within_class (13 -> groups 4,4,4,1); pilot validation first 3 + 3; train-eval 3+3"
+  },
+  "split_counts": {
+    "test/LUAD": 91,
+    "test/LUSC": 95,
+    "train/LUAD": 273,
+    "train/LUSC": 284,
+    "validation/LUAD": 91,
+    "validation/LUSC": 95
+  },
+  "split_fingerprint": "8dbca5ef9368b8e29d50f7183d93d9e893fefa2b01eaf58b2812c055b0a00a8b",
+  "stage28_files": {
+    "environment.json": "07fe41ee36f3b8d1ceb04b5cca9ee9466149ec580130a50f9cdcd3207e2fb1ec",
+    "input_audit.json": "77feb67ff60e65b41da56ed249de34c43a5655fe329a525024ca5e3bf8bb4f87",
+    "patch_inventory.csv": "4b992911cf23a57a958634a92911d51a5c60f087973c3697ff59319bb5e2c7f0",
+    "patient_splits.csv": "a554ccbb514113dcd2ac5ad7cdb175c9d8e03341b4030657b6cdd8104765dc42",
+    "pilot_manifest.csv": "52e049fe25a0bdb3adb38df2ad004b0b7b4d89b03df373bafd3d954071d0f783",
+    "protocol.json": "fca0e10b1136b2eaa26d4a7fd4eca572e6a567ccd15927b912e79c63486bb7a5",
+    "run_status.json": "c1de13b9df3394bfb4cbea30791c628817b607b312466533d696eadc1fa6bbd0",
+    "source_inputs.json": "f8d925f51a30a31f36d8a98a02a718e258343c0a4908243ccb3e834d25fb6e62"
+  },
+  "stage28_manifest_sha256": "8b4033f0b8b6691c5ace1f2aa03418d5b29178745b768f8678004b52d4eee52b",
+  "stage29_imported_sha256": "a8a7409a32c748c3529544138b5e20b8f6294b233a8fb22c20585dcd522ab09d",
+  "stage31_version": "1.0.1",
+  "status": "TEST_ONLY_NOT_FOR_RESULTS",
+  "stopping": {
+    "criterion": "mean patient-level validation cross-entropy over all validation patients (186)",
+    "improvement": "strictly lower CE (min_delta = 0)",
+    "max_epochs": 30,
+    "no_threshold_tuning": true,
+    "patience_epochs": 5,
+    "selected_model": "checkpoint with minimal validation CE (best_model.pt; authoritative copy = best checkpoint generation)",
+    "tie_rule": "equal CE keeps the earlier best checkpoint"
+  },
+  "train_patients_sha256": "6212f80db91cecd93d29191c6738548e206ee7174c18e733aad26142d650c673",
+  "validation_patients_sha256": "0aa43669c1fed0299dfd90610978b1b27ef5880318191f8c5521aa9b261797a1",
+  "weights_path": "results\\wsi_patch_budget_v1\\stage29_pilot_v1\\weights\\resnet18-f37072fd.pth",
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+}

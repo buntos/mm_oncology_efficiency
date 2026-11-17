@@ -1,0 +1,6 @@
+case_submitter_id,class_label,group,file_id,slide_token,threshold,selected_tiles,reached_64,checked_to_64,pass_count_seen,candidates_total,candidates_checked,scan_exhausted,background_fail_seen,white_fail_seen,artifact_rejected_seen,raw_otsu_saturation,saturation_threshold,tissue_mask_fraction
+TCGA-21-5782,LUSC,control,d913ea9c-3590-43c0-a658-5bd346a554b0,DX1,0.9,64,True,2238,64,18243,2238,False,783,0,2,0.091796875,0.091796875,0.2601210326824987
+TCGA-21-5782,LUSC,control,d913ea9c-3590-43c0-a658-5bd346a554b0,DX1,0.85,64,True,481,284,18243,2238,False,783,0,2,0.091796875,0.091796875,0.2601210326824987
+TCGA-21-5782,LUSC,control,d913ea9c-3590-43c0-a658-5bd346a554b0,DX1,0.8,64,True,156,742,18243,2238,False,783,0,2,0.091796875,0.091796875,0.2601210326824987
+TCGA-21-5782,LUSC,control,d913ea9c-3590-43c0-a658-5bd346a554b0,DX1,0.75,64,True,116,1210,18243,2238,False,783,0,2,0.091796875,0.091796875,0.2601210326824987
+TCGA-21-5782,LUSC,control,d913ea9c-3590-43c0-a658-5bd346a554b0,DX1,0.7,64,True,102,1407,18243,2238,False,783,0,2,0.091796875,0.091796875,0.2601210326824987

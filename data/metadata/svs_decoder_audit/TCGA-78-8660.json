@@ -1,0 +1,27 @@
+{
+  "case_submitter_id": "TCGA-78-8660",
+  "wsi_file_id": "51bdb04a-b268-48d9-9406-956b5553e77d",
+  "compression_value": 7,
+  "compression_text": "7",
+  "photometric_value": 2,
+  "photometric_text": "2",
+  "tile_width": 240,
+  "tile_length": 240,
+  "ycbcr_subsampling": [
+    2,
+    2
+  ],
+  "tifffile_version": "2026.8.16",
+  "imagecodecs_version": "2026.8.16",
+  "jpeg2k_codec_version": "openjpeg 2.5.4",
+  "tiles_compared": 64,
+  "saved_vs_openslide_mae_mean": 0.0,
+  "saved_vs_openslide_mae_max": 0.0,
+  "openslide_vs_tiff_mae_mean": 0.0,
+  "openslide_vs_tiff_mae_median": 0.0,
+  "openslide_vs_tiff_mae_p95": 0.0,
+  "openslide_vs_tiff_mae_max": 0.0,
+  "tiles_mae_gt_1": 0,
+  "tiles_mae_gt_5": 0,
+  "tiles_mae_gt_20": 0
+}

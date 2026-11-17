@@ -1,0 +1,100 @@
+{
+  "checks": {
+    "compat_d08b": {
+      "attempted_executed_skipped": [
+        15,
+        15,
+        0
+      ],
+      "diffs": {
+        "val_auroc": 0.0,
+        "val_balanced_accuracy": 0.0,
+        "val_ce": 0.0,
+        "val_macro_f1": 0.0,
+        "val_p_mean": 0.0,
+        "val_p_sd": 0.0
+      },
+      "groups_and_bias_trajectory_identical": true,
+      "max_abs_diff_epoch1": 0.0,
+      "note": "Same inputs/initial weights as D08-B (pilot 60/20, K=64, seed 20261113); Stage 31 loader/train_group/evaluate are ports.",
+      "status": "PASS",
+      "validation_predictions_identical": true
+    },
+    "resume": {
+      "attempts": [
+        8,
+        8,
+        0
+      ],
+      "checks": {
+        "best_model_verified": true,
+        "csv_identical": true,
+        "model": true,
+        "no_duplicate_group_rows": true,
+        "no_duplicate_metric_rows": true,
+        "optimizer": true,
+        "partial_group_present": true,
+        "progress_attempts_total_identical": true,
+        "progress_epoch_identical": true,
+        "progress_executed_total_identical": true,
+        "progress_groups_identical": true,
+        "progress_metrics_identical": true,
+        "progress_predictions_identical": true,
+        "progress_selection_identical": true,
+        "progress_skipped_total_identical": true,
+        "progress_status_identical": true,
+        "resources_rows_present": true,
+        "rng": true,
+        "scaler": true
+      },
+      "interrupted_ledger": {
+        "note": "Power-off pauses excluded. Unclean tail after last durable heartbeat is unknown, not zero.",
+        "recorded_active_seconds_including_replay": 28.682932600007916,
+        "recorded_cpu_seconds": 70.8125,
+        "sessions": 4,
+        "time_is_lower_bound": false,
+        "unclean_sessions": []
+      },
+      "status": "PASS",
+      "timing_excluded_from_equality": {
+        "continuous": [
+          {
+            "checkpoint_io_wall_seconds": 2.392414400004782,
+            "diagnostics_wall_seconds": 3.8498485000018263,
+            "train_wall_seconds": 1.4004046000045491,
+            "validation_wall_seconds": 1.7652147000044351
+          },
+          {
+            "checkpoint_io_wall_seconds": 2.1192891000027885,
+            "diagnostics_wall_seconds": 1.8966552999991109,
+            "train_wall_seconds": 1.2353321999908076,
+            "validation_wall_seconds": 1.712491999998747
+          }
+        ],
+        "interrupted": [
+          {
+            "checkpoint_io_wall_seconds": 3.4537171999982093,
+            "diagnostics_wall_seconds": 3.926929899993411,
+            "train_wall_seconds": 0.0,
+            "validation_wall_seconds": 1.9165322999979253
+          },
+          {
+            "checkpoint_io_wall_seconds": 2.1318669999964186,
+            "diagnostics_wall_seconds": 2.1871782000016537,
+            "train_wall_seconds": 1.4643848000050639,
+            "validation_wall_seconds": 1.6985400000048685
+          }
+        ]
+      }
+    }
+  },
+  "compat_wall_seconds": 61.41379500000039,
+  "folder": "results\\stage31_patch_budget_v1_smoke",
+  "resume_wall_seconds": {
+    "continuous": 36.371354599999904,
+    "interrupted_total": 101.05245429999923
+  },
+  "script31_sha256": "776a66428592079bfe882a385ee09f10c7a3541a765438ebc01c6cb4b41e6b4d",
+  "status": "PASS",
+  "utc": "2026-11-12T23:40:26.245448+00:00"
+}

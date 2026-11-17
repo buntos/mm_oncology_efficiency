@@ -1,0 +1,73 @@
+{
+  "variant": "enc_lr_1e-5",
+  "budget": 16,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7666350183387597,
+      "train_seconds": 6.100267200003145,
+      "optimizer_steps": 15,
+      "amp_skips": 0,
+      "val_loss": 0.8011980101466178,
+      "val_auroc": 0.47,
+      "val_balanced_accuracy": 0.5,
+      "val_p_LUSC_mean": 0.709358525276184,
+      "val_p_LUSC_sd": 0.0438430938485335,
+      "val_n_pred_LUSC": 20
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7123093254864216,
+      "train_seconds": 5.859412699996028,
+      "optimizer_steps": 15,
+      "amp_skips": 0,
+      "val_loss": 0.7045891031622886,
+      "val_auroc": 0.72,
+      "val_balanced_accuracy": 0.5,
+      "val_p_LUSC_mean": 0.3437942244112492,
+      "val_p_LUSC_sd": 0.049483839296669274,
+      "val_n_pred_LUSC": 0
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6856189221143723,
+      "train_seconds": 5.773828299999877,
+      "optimizer_steps": 15,
+      "amp_skips": 0,
+      "val_loss": 0.6874745264649391,
+      "val_auroc": 0.62,
+      "val_balanced_accuracy": 0.5,
+      "val_p_LUSC_mean": 0.5693729057908058,
+      "val_p_LUSC_sd": 0.05480863322991571,
+      "val_n_pred_LUSC": 18
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6498051524162293,
+      "train_seconds": 5.77803600000334,
+      "optimizer_steps": 15,
+      "amp_skips": 0,
+      "val_loss": 0.6703979581594467,
+      "val_auroc": 0.64,
+      "val_balanced_accuracy": 0.55,
+      "val_p_LUSC_mean": 0.4532719224691391,
+      "val_p_LUSC_sd": 0.07491703786518848,
+      "val_n_pred_LUSC": 7
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6521862777570884,
+      "train_seconds": 5.896890099997108,
+      "optimizer_steps": 15,
+      "amp_skips": 0,
+      "val_loss": 0.6892670534551144,
+      "val_auroc": 0.71,
+      "val_balanced_accuracy": 0.5,
+      "val_p_LUSC_mean": 0.35860435515642164,
+      "val_p_LUSC_sd": 0.07462933806092813,
+      "val_n_pred_LUSC": 0
+    }
+  ],
+  "train_pooled_abs_mean_after_ep5": 0.3418631851673126,
+  "train_pooled_between_patient_sd_after_ep5": 0.15782682597637177
+}

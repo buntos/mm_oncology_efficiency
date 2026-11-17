@@ -1,0 +1,5 @@
+{"event": "START", "utc": "2026-11-12T23:44:00.136922+00:00", "active_seconds": 0.00022190000163391232, "cpu_seconds": 0.0}
+{"event": "MODEL_READY", "utc": "2026-11-12T23:44:01.102945+00:00", "active_seconds": 0.9667416000011144, "cpu_seconds": 2.015625, "epoch": 1, "phase": "validated", "group": 4}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:44:04.013522+00:00", "active_seconds": 3.876685200004431, "cpu_seconds": 10.0625, "epoch": 3, "phase": "train", "group": 0}
+{"event": "EPOCH_COMMITTED", "utc": "2026-11-12T23:44:04.014531+00:00", "active_seconds": 3.8782493000035174, "cpu_seconds": 10.0625, "epoch": 2, "improved": false, "status": "MAX_EPOCHS"}
+{"event": "END", "utc": "2026-11-12T23:44:04.042627+00:00", "active_seconds": 3.9058861000012257, "cpu_seconds": 10.09375, "outcome": "MAX_EPOCHS"}

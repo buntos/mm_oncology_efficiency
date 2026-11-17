@@ -1,0 +1,19 @@
+{
+  "active_seconds_is_lower_bound": false,
+  "active_seconds_post_completion_sessions": 0,
+  "active_seconds_training_sessions": 3016.122748900001,
+  "journal_unparsable_lines": 0,
+  "note": "Actual work from resource_journal.jsonl (includes replay after rollback). Wall/CPU time, not 'GPU time'. Sessions without session_end have an unknown tail: their active time is a lower bound. Unmeasured checkpoints were written but their write time was not journaled before a crash.",
+  "sessions": 1,
+  "total_aux_io_wall_seconds": 5.255062399999588,
+  "total_checkpoint_io_wall_seconds": 258.8375161001168,
+  "total_checkpoints_measured": 331,
+  "total_checkpoints_unmeasured": 0,
+  "total_diagnostics_wall_seconds": 69.14461560004565,
+  "total_setup_wall_seconds": 17.58998310001334,
+  "total_train_attempts_executed_work": 1540,
+  "total_train_attempts_replayed": 0,
+  "total_train_wall_seconds": 2094.116882799877,
+  "total_validation_wall_seconds": 565.0596074000205,
+  "unclean_sessions": []
+}

@@ -1,0 +1,56 @@
+{
+  "batchnorm_buffers_unchanged": true,
+  "budget": 64,
+  "classifier_updated": true,
+  "encoder_updated": true,
+  "groups": [
+    4,
+    1
+  ],
+  "identity": "eaf234335d2f620ebdb26818e3ac7265f87e68f3ff1014464b8d857a4fb602cf",
+  "note": "Smoke includes diagnostics and is not an unbiased timing benchmark.",
+  "patient_ids": [
+    "TCGA-78-8662",
+    "TCGA-77-8154",
+    "TCGA-55-1592",
+    "TCGA-77-A5GB",
+    "TCGA-55-8614"
+  ],
+  "resources": {
+    "peak_allocated_vram_bytes": 1301330944,
+    "peak_reserved_vram_bytes": 1572864000,
+    "sampled_peak_rss_bytes": 1567068160
+  },
+  "status": "PASS",
+  "steps": [
+    {
+      "amp_skips": 0,
+      "attempted_optimizer_steps": 1,
+      "cpu_seconds": 4.6875,
+      "encoder_gradient_nonzero": true,
+      "finite_gradients": true,
+      "forward_backward_cuda_ms": 1131.9018020629883,
+      "load_and_transfer_seconds": 1.1015324000109104,
+      "loss_sum": 3.50110325217247,
+      "optimizer_steps": 1,
+      "patches": 256,
+      "patients": 4,
+      "wall_seconds": 2.3596942000003764
+    },
+    {
+      "amp_skips": 0,
+      "attempted_optimizer_steps": 1,
+      "cpu_seconds": 0.859375,
+      "encoder_gradient_nonzero": true,
+      "finite_gradients": true,
+      "forward_backward_cuda_ms": 75.03359985351562,
+      "load_and_transfer_seconds": 0.2625534999970114,
+      "loss_sum": 0.020009567961096764,
+      "optimizer_steps": 1,
+      "patches": 64,
+      "patients": 1,
+      "wall_seconds": 0.35178289999748813
+    }
+  ],
+  "utc": "2026-11-12T19:21:31.302668+00:00"
+}

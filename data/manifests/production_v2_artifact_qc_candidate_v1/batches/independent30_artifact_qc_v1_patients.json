@@ -1,0 +1,22 @@
+{
+  "protocol_namespace": "production_v2_artifact_qc_candidate_v1",
+  "protocol_name": "V2_PROD_HSV_64x256+ARTIFACT_QC_SENSITIVE_CANDIDATE_V1",
+  "artifact_protocol": "SENSITIVE_CANDIDATE_V1",
+  "artifact_rules": {
+    "near_black_fraction_min": 0.3,
+    "flat_gradient_max": 0.3,
+    "flat_red_excess_min": 125.0,
+    "flat_cyan_excess_min": 8.0,
+    "hyper_red_excess_min": 140.0,
+    "hyper_red_saturation_min": 0.75,
+    "hyper_cyan_excess_min": 18.0,
+    "hyper_cyan_saturation_min": 0.6
+  },
+  "batch_name": "independent30_artifact_qc_v1",
+  "patient_count": 30,
+  "luad": 15,
+  "lusc": 15,
+  "explicit_cases": null,
+  "process_all": false,
+  "important_note": "Artifact-QC thresholds are frozen for independent validation."
+}

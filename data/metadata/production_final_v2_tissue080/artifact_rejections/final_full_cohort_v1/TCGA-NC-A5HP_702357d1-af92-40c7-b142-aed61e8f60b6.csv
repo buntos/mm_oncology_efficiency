@@ -1,0 +1,2 @@
+case_submitter_id,class_label,file_id,slide_token,candidate_checked_index,x_level0,y_level0,approx_tissue_fraction,final_tissue_fraction,background_fraction,white_fraction,near_black_fraction,gradient_mean,red_excess,cyan_excess,saturation_mean,artifact_reasons,artifact_image_path,artifact_qc_protocol
+TCGA-NC-A5HP,LUSC,702357d1-af92-40c7-b142-aed61e8f60b6,DX1,44,18944,47360,1.0,1.0,0.0,0.0,1.0,0.11361738294363022,16.291015625,-16.291015625,0.7403067350387573,near_black,,V2_FINAL_HSV_64x256+TISSUE080+ARTIFACT_QC_V1

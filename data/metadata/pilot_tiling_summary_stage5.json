@@ -1,0 +1,11 @@
+{
+  "patients": 10,
+  "patients_pass": 10,
+  "tile_size": 256,
+  "stride": 256,
+  "target_tiles_per_patient": 64,
+  "candidate_tissue_fraction": 0.8,
+  "final_tissue_fraction": 0.9,
+  "total_tiles": 640,
+  "overall_pass": true
+}

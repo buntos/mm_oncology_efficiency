@@ -1,0 +1,42 @@
+PREPARED: C:\research\mm_oncology_efficiency\results\stage30_balanced_batches_v1_resume_selftest (epochs=2). No training has run.
+Caching 60 train bags for eval-mode diagnostics (verified bytes, no augmentation)...
+START balanced: epoch-0 diagnostics committed
+balanced ep 1: trEvalCE=0.6521 trAUROC=0.698 trLD=+0.269 trDp=+0.065 | valCE=0.6867 AUROC=0.620 BA=0.60 F1=0.560 pmean=0.562 LUAD/LUSC=4/16 | |h|=0.566 skips=0
+balanced ep 2: trEvalCE=0.6150 trAUROC=0.794 trLD=+0.263 trDp=+0.102 | valCE=0.6755 AUROC=0.640 BA=0.65 F1=0.627 pmean=0.559 LUAD/LUSC=5/15 | |h|=0.594 skips=0
+COMPLETE balanced: C:\research\mm_oncology_efficiency\results\stage30_balanced_batches_v1_resume_selftest\runs\continuous
+Caching 60 train bags for eval-mode diagnostics (verified bytes, no augmentation)...
+START balanced: epoch-0 diagnostics committed
+SIMULATED INTERRUPTION after optimizer step 7 (checkpoint committed).
+Caching 60 train bags for eval-mode diagnostics (verified bytes, no augmentation)...
+RESUME balanced: epoch 1, next group 8 (checkpoint_00000002)
+balanced ep 1: trEvalCE=0.6521 trAUROC=0.698 trLD=+0.269 trDp=+0.065 | valCE=0.6867 AUROC=0.620 BA=0.60 F1=0.560 pmean=0.562 LUAD/LUSC=4/16 | |h|=0.566 skips=0
+SIMULATED INTERRUPTION after optimizer step 18 (checkpoint committed).
+Caching 60 train bags for eval-mode diagnostics (verified bytes, no augmentation)...
+RESUME balanced: epoch 2, next group 4 (checkpoint_00000006)
+balanced ep 2: trEvalCE=0.6150 trAUROC=0.794 trLD=+0.263 trDp=+0.102 | valCE=0.6755 AUROC=0.640 BA=0.65 F1=0.627 pmean=0.559 LUAD/LUSC=5/15 | |h|=0.594 skips=0
+COMPLETE balanced: C:\research\mm_oncology_efficiency\results\stage30_balanced_batches_v1_resume_selftest\runs\interrupted
+{
+ "status": "FAIL",
+ "checks": {
+  "model": true,
+  "optimizer": true,
+  "scaler": true,
+  "rng": true,
+  "progress_metrics_identical": false,
+  "progress_groups_identical": true,
+  "progress_predictions_identical": true,
+  "metric_rows_no_duplicates": true,
+  "csv_tables_identical": false
+ },
+ "interrupted_sessions": 3,
+ "interruptions": [
+  "after optimizer step 7 (mid epoch 1)",
+  "after optimizer step 18 (epoch 2, after epoch-1 commit)"
+ ],
+ "wall_seconds": {
+  "continuous": 123.4044128999958,
+  "interrupted_total": 192.9880176000006
+ },
+ "epochs": 2,
+ "mode": "balanced"
+}

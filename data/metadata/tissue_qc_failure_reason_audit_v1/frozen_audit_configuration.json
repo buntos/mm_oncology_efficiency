@@ -1,0 +1,43 @@
+{
+  "audit_name": "tissue_qc_failure_reason_audit_v1",
+  "audit_protocol": "V2_PROD_TISSUE_QC_FAILURE_REASON_ANALYSIS+FROZEN_ARTIFACT_QC_CANDIDATE_V1",
+  "case_ids": [
+    "TCGA-05-4396",
+    "TCGA-05-4397",
+    "TCGA-05-4434"
+  ],
+  "final_tissue_threshold": 0.8,
+  "current_background_threshold": 0.1,
+  "current_white_threshold": 0.1,
+  "background_sweep": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "white_sweep": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "candidate_tissue_fraction": 0.7,
+  "artifact_qc_protocol": "SENSITIVE_CANDIDATE_V1",
+  "artifact_rules": {
+    "near_black_fraction_min": 0.3,
+    "flat_gradient_max": 0.3,
+    "flat_red_excess_min": 125.0,
+    "flat_cyan_excess_min": 8.0,
+    "hyper_red_excess_min": 140.0,
+    "hyper_red_saturation_min": 0.75,
+    "hyper_cyan_excess_min": 18.0,
+    "hyper_cyan_saturation_min": 0.6
+  },
+  "note": "Audit only. No production files are modified. FINAL_TISSUE_FRACTION=0.80 is evaluated as a candidate value identified by audit 18."
+}

@@ -1,0 +1,135 @@
+{
+  "protocol": "V2_PROD validation tile artifact diagnostic audit",
+  "batch_name": "validation30_v2prod",
+  "patients_expected": 30,
+  "patients_loaded": 30,
+  "tiles_expected": 1920,
+  "tiles_loaded": 1920,
+  "missing_patient_manifests": [],
+  "missing_tile_files": 0,
+  "important_note": "Diagnostic ranking only. No artifact rejection threshold was applied.",
+  "top_multifeature_outliers": [
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 59,
+      "robust_multifeature_distance": 28.766438206958803,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_059_x28416_y27904.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 14,
+      "robust_multifeature_distance": 28.52903762753746,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_014_x27392_y30720.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 54,
+      "robust_multifeature_distance": 27.386477222770427,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_054_x22272_y36608.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 63,
+      "robust_multifeature_distance": 26.41052702158631,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_063_x27392_y22784.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 4,
+      "robust_multifeature_distance": 26.076234529946717,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_004_x27904_y25344.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 64,
+      "robust_multifeature_distance": 25.815955921858826,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_064_x15360_y19200.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 1,
+      "robust_multifeature_distance": 25.633711106705135,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_001_x35584_y19968.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 5,
+      "robust_multifeature_distance": 25.48474622036246,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_005_x26368_y34048.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 58,
+      "robust_multifeature_distance": 25.12337989167537,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_058_x17152_y20224.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 57,
+      "robust_multifeature_distance": 24.85849841116274,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_057_x41728_y19200.png"
+    }
+  ],
+  "top_combined_artifact_signals": [
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 40,
+      "max_artifact_signal": 1551.0186666666666,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_040_x28928_y34304.png"
+    },
+    {
+      "case_submitter_id": "TCGA-78-8660",
+      "tile_index": 62,
+      "max_artifact_signal": 1551.0186666666666,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-78-8660\\tile_062_x62976_y4608.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 28,
+      "max_artifact_signal": 1550.9239999999998,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_028_x28928_y9472.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 48,
+      "max_artifact_signal": 1228.9153333333331,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_048_x53248_y26624.png"
+    },
+    {
+      "case_submitter_id": "TCGA-78-8660",
+      "tile_index": 35,
+      "max_artifact_signal": 1149.7976666666666,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-78-8660\\tile_035_x62976_y6144.png"
+    },
+    {
+      "case_submitter_id": "TCGA-18-3407",
+      "tile_index": 23,
+      "max_artifact_signal": 432.9816666666666,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-18-3407\\tile_023_x102656_y79104.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 39,
+      "max_artifact_signal": 411.01899999999995,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_039_x34048_y16896.png"
+    },
+    {
+      "case_submitter_id": "TCGA-18-3407",
+      "tile_index": 15,
+      "max_artifact_signal": 348.0893333333333,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-18-3407\\tile_015_x23040_y34048.png"
+    },
+    {
+      "case_submitter_id": "TCGA-86-8056",
+      "tile_index": 44,
+      "max_artifact_signal": 318.364,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-86-8056\\tile_044_x18432_y40448.png"
+    },
+    {
+      "case_submitter_id": "TCGA-55-7728",
+      "tile_index": 32,
+      "max_artifact_signal": 234.96266666666665,
+      "tile_path": "C:\\research\\mm_oncology_efficiency\\data\\tiles\\production_v2\\TCGA-55-7728\\tile_032_x21760_y15360.png"
+    }
+  ]
+}

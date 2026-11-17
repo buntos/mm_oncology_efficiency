@@ -1,0 +1,9 @@
+{
+  "source_cohort_sha256": "0b62f5aa3b1dc09f9e96c411edb04b4456004a188eaa882072e4339e2d1611fa",
+  "pilot_cohort_sha256": "790202ae68cc7f7725b79a2d7a1d4dc2f644f2c087a1de26d08301576ad890e7",
+  "pilot_patients": 10,
+  "luad": 5,
+  "lusc": 5,
+  "wsi_total_gb": 8.252874203026295,
+  "rna_total_gb": 0.0395565303042531
+}

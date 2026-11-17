@@ -1,0 +1,13 @@
+{"event": "START", "utc": "2026-11-12T23:38:57.293773+00:00", "active_seconds": 0.0006968000016058795, "cpu_seconds": 0.0}
+{"event": "MODEL_READY", "utc": "2026-11-12T23:38:58.166461+00:00", "active_seconds": 0.8734020000047167, "cpu_seconds": 1.921875, "epoch": 0, "phase": "trained", "group": 4}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:39:00.787142+00:00", "active_seconds": 3.49385820000316, "cpu_seconds": 9.4375, "epoch": 1, "phase": "validated", "group": 4}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:39:03.431512+00:00", "active_seconds": 6.138594100004411, "cpu_seconds": 17.25, "epoch": 2, "phase": "train", "group": 0}
+{"event": "EPOCH_COMMITTED", "utc": "2026-11-12T23:39:03.704476+00:00", "active_seconds": 6.411051800001587, "cpu_seconds": 18.265625, "epoch": 1, "improved": true, "status": null}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:39:04.581294+00:00", "active_seconds": 7.287558200005151, "cpu_seconds": 21.296875, "epoch": 2, "group": 1, "skipped": 0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:39:05.281904+00:00", "active_seconds": 7.988070300001709, "cpu_seconds": 23.234375, "epoch": 2, "phase": "train", "group": 1}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:39:05.658704+00:00", "active_seconds": 8.365686500001175, "cpu_seconds": 24.59375, "epoch": 2, "group": 2, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:39:06.043799+00:00", "active_seconds": 8.750785500000347, "cpu_seconds": 26.15625, "epoch": 2, "group": 3, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:39:06.148158+00:00", "active_seconds": 8.854649200002314, "cpu_seconds": 26.59375, "epoch": 2, "group": 4, "skipped": 0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:39:06.847523+00:00", "active_seconds": 9.55369729999802, "cpu_seconds": 28.453125, "epoch": 2, "phase": "trained", "group": 4}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:39:09.260574+00:00", "active_seconds": 11.967106600000989, "cpu_seconds": 35.765625, "epoch": 2, "phase": "validated", "group": 4}
+{"event": "END", "utc": "2026-11-12T23:39:09.278413+00:00", "active_seconds": 11.984533800001373, "cpu_seconds": 35.78125, "outcome": "STOP_REQUESTED at phase (2, 'validated')"}

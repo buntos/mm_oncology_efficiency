@@ -1,0 +1,4 @@
+case_submitter_id,selected_wsi_file_id,selected_slide_token,wsi_file_name,icc_available,icc_profile_text,icc_rendering_intent,tiles,saved_vs_raw_mae_mean,saved_vs_raw_mae_max,raw_vs_srgb_mae_mean,raw_vs_srgb_mae_median,raw_vs_srgb_mae_max,raw_vs_srgb_p95_mean
+TCGA-86-8056,c7aad125-c092-4451-8480-993a3d982879,DX1,TCGA-86-8056-01Z-00-DX1.eee7e03a-842c-4a44-bff8-f7b906725605.svs,True,ScanScope v1,0,64,0.0,0.0,18.84422415494919,22.092254638671875,29.0434627532959,22.338541612029076
+TCGA-86-8278,c6e36f24-46f3-4e20-8154-970e749aa0ca,DX1,TCGA-86-8278-01Z-00-DX1.6500afef-f0f0-4e7c-a6c0-60da81993641.svs,True,ScanScope v1,0,64,0.0,0.0,18.06786409020424,17.8720703125,29.206756591796875,20.447916731238365
+TCGA-78-8660,51bdb04a-b268-48d9-9406-956b5553e77d,DX1,TCGA-78-8660-01Z-00-DX1.11E923ED-C01B-439D-8796-08C9E3DC2D93.svs,True,ScanScope v1,0,64,0.0,0.0,9.409884124994278,9.25995397567749,14.65478515625,11.875000014901161

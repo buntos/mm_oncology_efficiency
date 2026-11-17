@@ -1,0 +1,4 @@
+ruleset,tiles_total,tiles_rejected,tiles_rejected_fraction,patients_total,patients_affected,reference_cases_rejected_tiles,other_cases_rejected_tiles,other_cases_affected
+conservative,1920,46,0.023958333333333335,30,3,46,0,0
+balanced,1920,61,0.03177083333333333,30,3,61,0,0
+sensitive,1920,83,0.043229166666666666,30,3,83,0,0

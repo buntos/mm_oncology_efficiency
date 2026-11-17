@@ -1,0 +1,50 @@
+[
+  {
+    "case_submitter_id": "TCGA-86-8056",
+    "selected_wsi_file_id": "c7aad125-c092-4451-8480-993a3d982879",
+    "selected_slide_token": "DX1",
+    "wsi_file_name": "TCGA-86-8056-01Z-00-DX1.eee7e03a-842c-4a44-bff8-f7b906725605.svs",
+    "icc_available": true,
+    "icc_profile_text": "ScanScope v1",
+    "icc_rendering_intent": 0,
+    "tiles": 64,
+    "saved_vs_raw_mae_mean": 0.0,
+    "saved_vs_raw_mae_max": 0.0,
+    "raw_vs_srgb_mae_mean": 18.84422415494919,
+    "raw_vs_srgb_mae_median": 22.092254638671875,
+    "raw_vs_srgb_mae_max": 29.0434627532959,
+    "raw_vs_srgb_p95_mean": 22.338541612029076
+  },
+  {
+    "case_submitter_id": "TCGA-86-8278",
+    "selected_wsi_file_id": "c6e36f24-46f3-4e20-8154-970e749aa0ca",
+    "selected_slide_token": "DX1",
+    "wsi_file_name": "TCGA-86-8278-01Z-00-DX1.6500afef-f0f0-4e7c-a6c0-60da81993641.svs",
+    "icc_available": true,
+    "icc_profile_text": "ScanScope v1",
+    "icc_rendering_intent": 0,
+    "tiles": 64,
+    "saved_vs_raw_mae_mean": 0.0,
+    "saved_vs_raw_mae_max": 0.0,
+    "raw_vs_srgb_mae_mean": 18.06786409020424,
+    "raw_vs_srgb_mae_median": 17.8720703125,
+    "raw_vs_srgb_mae_max": 29.206756591796875,
+    "raw_vs_srgb_p95_mean": 20.447916731238365
+  },
+  {
+    "case_submitter_id": "TCGA-78-8660",
+    "selected_wsi_file_id": "51bdb04a-b268-48d9-9406-956b5553e77d",
+    "selected_slide_token": "DX1",
+    "wsi_file_name": "TCGA-78-8660-01Z-00-DX1.11E923ED-C01B-439D-8796-08C9E3DC2D93.svs",
+    "icc_available": true,
+    "icc_profile_text": "ScanScope v1",
+    "icc_rendering_intent": 0,
+    "tiles": 64,
+    "saved_vs_raw_mae_mean": 0.0,
+    "saved_vs_raw_mae_max": 0.0,
+    "raw_vs_srgb_mae_mean": 9.409884124994278,
+    "raw_vs_srgb_mae_median": 9.25995397567749,
+    "raw_vs_srgb_mae_max": 14.65478515625,
+    "raw_vs_srgb_p95_mean": 11.875000014901161
+  }
+]

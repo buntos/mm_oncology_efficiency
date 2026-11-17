@@ -1,0 +1,7 @@
+{"event": "START", "utc": "2026-11-12T23:42:41.106374+00:00", "active_seconds": 0.00021370000467868522, "cpu_seconds": 0.0}
+{"event": "CHECKPOINT", "utc": "2026-11-12T23:42:44.014164+00:00", "active_seconds": 2.908116600003268, "cpu_seconds": 8.078125, "epoch": 1, "phase": "train", "group": 0}
+{"event": "MODEL_READY", "utc": "2026-11-12T23:42:44.025370+00:00", "active_seconds": 2.918914900001255, "cpu_seconds": 8.078125, "epoch": 0, "phase": "train", "group": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:42:45.111616+00:00", "active_seconds": 4.004989000000933, "cpu_seconds": 11.0, "epoch": 1, "group": 1, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:42:45.496506+00:00", "active_seconds": 4.389993900003901, "cpu_seconds": 12.53125, "epoch": 1, "group": 2, "skipped": 0}
+{"event": "TRAIN_GROUP", "utc": "2026-11-12T23:42:45.882738+00:00", "active_seconds": 4.7762151999995694, "cpu_seconds": 14.09375, "epoch": 1, "group": 3, "skipped": 0}
+{"event": "END", "utc": "2026-11-12T23:42:45.893762+00:00", "active_seconds": 4.787773399999423, "cpu_seconds": 14.09375, "outcome": "STOP_REQUESTED after attempt 3"}

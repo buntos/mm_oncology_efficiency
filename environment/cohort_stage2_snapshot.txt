@@ -1,0 +1,32 @@
+﻿TCGA-LUAD / TCGA-LUSC COHORT — STAGE 2
+Snapshot date: 2026-08-19
+
+Stage 1 paired patients: 1019
+
+Selected paired cohort: 950
+LUAD: 474
+LUSC: 476
+
+WSI selection:
+- Primary Solid Tumor (sample code 01)
+- Diagnostic slide only
+- Deterministic priority DX1 -> DX2 -> ...
+- Selected DX1: 950
+
+RNA selection:
+- STAR - Counts
+- Primary Solid Tumor (sample code 01)
+- Deterministic vial priority A -> B -> ...
+- Vial A: 942
+- Vial B: 8
+
+Selected data size:
+WSI: 674.90 GB
+RNA: 3.75 GB
+
+Excluded from Stage 1: 69
+- No primary tumor diagnostic WSI: 68
+- No primary tumor RNA: 1
+
+Status:
+Selected cohort before technical file/QC validation.

@@ -1,0 +1,10 @@
+{
+  "epochs": 5,
+  "identity": {
+    "budget": 32,
+    "pilot_protocol_sha256": "eaf234335d2f620ebdb26818e3ac7265f87e68f3ff1014464b8d857a4fb602cf",
+    "seed": 20261113
+  },
+  "status": "COMPLETE",
+  "utc": "2026-11-12T19:38:34.449752+00:00"
+}

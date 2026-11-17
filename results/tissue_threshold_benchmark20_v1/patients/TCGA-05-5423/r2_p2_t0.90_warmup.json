@@ -1,0 +1,67 @@
+{
+  "run_signature": "2319e234d98cbff5c2f91347cbb215ee7d4d7472a8504e34f9715363ffe19917",
+  "case_submitter_id": "TCGA-05-5423",
+  "threshold": "0.90",
+  "repeat": 2,
+  "position": 2,
+  "phase": "warmup",
+  "control_ok": true,
+  "wsi_source_path": "C:\\research\\mm_oncology_efficiency\\results\\tissue_threshold_benchmark20_v1\\downloads\\4fe08445-76f1-4d5b-b1ac-dc46bd17991d\\TCGA-05-5423-01Z-00-DX1.CCCF5FDB-ACAD-4D9D-80DF-556F0D6284AF.svs",
+  "state": {
+    "threshold": 0.9,
+    "checked": 148,
+    "accepted": [
+      {
+        "candidate_checked_index": 4,
+        "x_level0": 5120,
+        "y_level0": 1024,
+        "approx_tissue_fraction": 0.9488252046991812,
+        "final_tissue_fraction": 0.915008544921875,
+        "background_fraction": 0.0051116943359375,
+        "white_fraction": 0.0,
+        "artifact_evaluated": true,
+        "artifact_reject": false,
+        "artifact_reasons": "",
+        "near_black_fraction": 0.0,
+        "gradient_mean": 5.915914535522461,
+        "red_excess": 10.082832336425781,
+        "cyan_excess": -10.082832336425781,
+        "saturation_mean": 0.12487227469682693
+      },
+      {
+        "candidate_checked_index": 28,
+        "x_level0": 5120,
+        "y_level0": 1280,
+        "approx_tissue_fraction": 0.9268422926308295,
+        "final_tissue_fraction": 0.9037322998046875,
+        "background_fraction": 0.0104827880859375,
+        "white_fraction": 0.0,
+        "artifact_evaluated": true,
+        "artifact_reject": false,
+        "artifact_reasons": "",
+        "near_black_fraction": 1.52587890625e-05,
+        "gradient_mean": 6.607129096984863,
+        "red_excess": 10.327743530273438,
+        "cyan_excess": -10.327743530273438,
+        "saturation_mean": 0.1395414173603058
+      }
+    ],
+    "rejected_low_tissue": 146,
+    "rejected_background": 0,
+    "rejected_white": 0,
+    "rejected_artifact": 0,
+    "checked_to_64": null
+  },
+  "metadata": {
+    "candidates_total": 148,
+    "deterministic_seed": "15098972799892146416",
+    "saturation_threshold": 0.080078125,
+    "raw_otsu_saturation": 0.080078125,
+    "scan_exhausted": true
+  },
+  "wall_seconds": 10.295506800000112,
+  "cpu_seconds": 10.28125,
+  "peak_rss_mib": 889.3515625,
+  "pre_scan_peak_rss_mib": 73.359375,
+  "finished_utc": "2026-11-11T19:07:12.104413+00:00"
+}
